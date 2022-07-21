@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <assert.h>
 using namespace std;
 
 void PopulateArray(float theArray[], int size);
@@ -7,7 +7,7 @@ float GetAverage(float theArray[], int size);
 void DisplayArray(float theArray[], int size);
 float GetLargestGrade(float theArray[], int size);
 float GetSmallestGrade(float theArray[], int size);
-void ChangeGrade(float theArray[], int index, float newValue);
+void ChangeGrade(float theArray[], int index, float newValue, int size);
 
 int main()
 {
@@ -17,10 +17,10 @@ int main()
     PopulateArray(myGrades, kSize);
     DisplayArray(myGrades, kSize);
 
-    ChangeGrade(myGrades, 0, 40.5f);
-    ChangeGrade(myGrades, 3, 40.5f);
-    ChangeGrade(myGrades, 5, 40.5f);
-    ChangeGrade(myGrades, -1, 40.5f);
+    ChangeGrade(myGrades, 0, 40.5f, kSize);
+    ChangeGrade(myGrades, 3, 40.5f, kSize);
+    ChangeGrade(myGrades, 5, 40.5f, kSize);
+    ChangeGrade(myGrades, -1, 40.5f, kSize);
 
 
     float average = GetAverage(myGrades, kSize);
@@ -85,8 +85,9 @@ float GetSmallestGrade(float theArray[], int size)
     return smallest;
 }
 
-void ChangeGrade(float theArray[], int index, float newValue)
+void ChangeGrade(float theArray[], int index, float newValue, int size)
 {
+    assert(index >= 0 && index < size);
     theArray[index] = newValue;
 }
 
