@@ -1,6 +1,8 @@
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
+#include <fstream>
+
 using namespace std;
 
 constexpr char kCursor = '_';
@@ -28,6 +30,7 @@ void DisplayBottomBorder(int width);
 void DisplayLeftBorder();
 void DisplayRightBorder();
 bool EditLevel(char* pLevel, int& cursorX, int& cursorY, int width, int height);
+void SaveLevel(char* pLevel, int width, int height);
 
 int main()
 {
@@ -55,6 +58,8 @@ int main()
 
     system("cls");
     DisplayLevel(pLevel, levelWidth, levelHeight, -1, -1);
+
+    SaveLevel(pLevel, levelWidth, levelHeight);
 
     delete[] pLevel;
     pLevel = nullptr;
@@ -162,8 +167,8 @@ bool EditLevel(char* pLevel, int& cursorX, int& cursorY, int width, int height)
             newCursorX = width - 1;
         if (newCursorY < 0)
             newCursorY = 0;
-        else if (newCursorY == width)
-            newCursorX = width - 1;
+        else if (newCursorY == height)
+            newCursorY = height - 1;
 
         cursorX = newCursorX;
         cursorY = newCursorY;
@@ -182,4 +187,31 @@ bool EditLevel(char* pLevel, int& cursorX, int& cursorY, int width, int height)
 
     }
     return false;
+}
+
+void SaveLevel(char* pLevel, int width, int height)
+{
+    cout << "Pick a name for your level (eg: Level1.txt): ";
+    string levelName;
+    cin >> levelName;
+
+    levelName.insert(0, "../");
+
+    ofstream levelFile;
+    levelFile.open(levelName);
+    if (!levelFile)
+    {
+        cout << "Opening file failed!" << endl;
+    }
+    else
+    {
+        levelFile << width << endl;
+        levelFile << height << endl;
+        levelFile.write(pLevel, width * height);
+        if (!levelFile)
+        {
+            cout << "Write failed!" << endl;
+        }
+        levelFile.close();
+    }
 }

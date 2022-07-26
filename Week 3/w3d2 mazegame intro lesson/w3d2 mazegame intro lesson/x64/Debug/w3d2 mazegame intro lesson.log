@@ -1,2 +1,5 @@
 ﻿  w3d2 mazegame intro lesson.cpp
+C:\Users\kwood\source\repos\LUU\Week 3\w3d2 mazegame intro lesson\w3d2 mazegame intro lesson\w3d2 mazegame intro lesson.cpp(8,22): warning C4309: 'initializing': truncation of constant value
+C:\Users\kwood\source\repos\LUU\Week 3\w3d2 mazegame intro lesson\w3d2 mazegame intro lesson\w3d2 mazegame intro lesson.cpp(9,22): warning C4309: 'initializing': truncation of constant value
+C:\Users\kwood\source\repos\LUU\Week 3\w3d2 mazegame intro lesson\w3d2 mazegame intro lesson\w3d2 mazegame intro lesson.cpp(10,22): warning C4309: 'initializing': truncation of constant value
   w3d2 mazegame intro lesson.vcxproj -> C:\Users\kwood\source\repos\LUU\Week 3\w3d2 mazegame intro lesson\x64\Debug\w3d2 mazegame intro lesson.exe
