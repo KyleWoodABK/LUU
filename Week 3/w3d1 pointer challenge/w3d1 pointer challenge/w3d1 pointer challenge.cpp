@@ -47,13 +47,14 @@ int main()
 
 void PointerValues(int number1, int number2)
 {
-    int a = number1;
-    int b = number2;
-    int* ptrA = &a;
-    int* ptrB = &b;
+    int* ptrA = &number1;
+    int* ptrB = &number2;
 
     cout << "The numbers you entered are " << *ptrA << " and " << *ptrB << endl;
     cout << endl;
+
+    ptrA = nullptr;
+    ptrB = nullptr;
 }
 
 int DisplayMenu()
