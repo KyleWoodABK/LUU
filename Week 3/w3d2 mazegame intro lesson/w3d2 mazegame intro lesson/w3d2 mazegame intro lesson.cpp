@@ -21,30 +21,25 @@ void PlayDoorClosedSound();
 void PlayDoorOpenSound();
 void PlayKeyPickupSound();
 void PlayWinSound();
+char* LoadLevel(string levelName, int& width, int& height);
+bool ConvertLevel(char* level, int width, int height, int& playerX, int& playerY);
 
 int main()
 {
     int width = 25;
     int height = 15;
 
-    char levelArray[]{ WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,' ',KEY,WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,WAL,' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',WAL,
-                       WAL,' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',DOR,' ',' ',' ',' ',' ',' ',' ',' ',GOL,WAL,
-                       WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL,WAL };
+    char* levelArray = LoadLevel("Level1.txt", width, height);
 
     int playerX = 1;
     int playerY = 1;
+    bool anyWarnings = ConvertLevel(levelArray, width, height, playerX, playerY);
+    if (anyWarnings)
+    {
+        cout << "There were some warnings in the level data, see above." << endl;
+        system("pause");
+    }
+
     bool playerHasKey = false;
     bool gameOver = false;
 
@@ -59,6 +54,7 @@ int main()
     cout << "YOU WON!!!" << endl;
     PlayWinSound();
     
+    delete[] levelArray;
 }
 
 int GetIndexFromCoordinates(int x, int y, int width)
@@ -201,4 +197,74 @@ void PlayWinSound()
     Beep(1397, 200);
     Beep(1397, 200);
     Beep(1175, 1000);
+}
+
+char* LoadLevel(string levelName, int& width, int& height)
+{
+    levelName.insert(0, "../");
+    ifstream levelFile;
+    levelFile.open(levelName);
+    if (!levelFile)
+    {
+        cout << "Opening file failed!" << endl;
+        return nullptr;
+    }
+    else
+    {
+        constexpr int tempSize = 25;
+        char temp[tempSize];
+
+        levelFile.getline(temp, tempSize, '\n');
+        width = atoi(temp);
+        
+        levelFile.getline(temp, tempSize, '\n');
+        height = atoi(temp);
+
+        char* levelData = new char[width * height];
+        levelFile.read(levelData, width * height);
+        return levelData;
+    }
+}
+
+bool ConvertLevel(char* level, int width, int height, int& playerX, int& playerY)
+{
+    bool anyWarnings = false;
+    for (int y = 0; y < height; y++)
+    {
+        for (int x = 0; x < width; x++)
+        {
+            int index = GetIndexFromCoordinates(x, y, width);
+
+            switch (level[index])
+            {
+                case '+':
+                case '-':
+                case '|':
+                    level[index] = WAL;
+                    break;
+                case '*':
+                    level[index] = KEY;
+                    break;
+                case 'D':
+                    level[index] = DOR;
+                    break;
+                case 'X':
+                    level[index] = GOL;
+                    break;
+                case '@':
+                    level[index] = ' ';
+                    playerX = x;
+                    playerY = y;
+                    break;
+                case ' ':
+                    break;
+                default:
+                    cout << "Invalid character in level file: " << level[index] << endl;
+                    anyWarnings = true;
+                    break;
+            }
+        }
+    }
+
+    return anyWarnings;
 }
