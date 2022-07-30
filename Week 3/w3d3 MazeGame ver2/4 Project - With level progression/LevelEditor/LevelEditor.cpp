@@ -145,6 +145,7 @@ void DisplayLegend()
 	cout << "@ for player start" << endl;
 	cout << "r g b for key" << endl;
 	cout << "R G B for door" << endl;
+	cout << "t for trap" << endl;
 	cout << "$ for money" << endl;
 	cout << "v for vertical moving enemy" << endl;
 	cout << "h for horizontal moving enemy" << endl;
@@ -154,7 +155,7 @@ void DisplayLegend()
 
 void SaveLevel(char* pLevel, int width, int height)
 {
-	cout << "Pick a name for your level file (eg: Level1.txt): ";
+	cout << "Pick a name for your level file (eg: Level4.txt): ";
 	string levelName;
 	cin >> levelName;
 

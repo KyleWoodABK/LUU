@@ -13,6 +13,7 @@
 #include "AudioManager.h"
 #include "Utility.h"
 #include "StateMachineExampleGame.h"
+#include "Trap.h"
 
 using namespace std;
 
@@ -27,12 +28,13 @@ GameplayState::GameplayState(StateMachineExampleGame* pOwner)
 	: m_pOwner(pOwner)
 	, m_beatLevel(false)
 	, m_skipFrameCount(0)
-	, m_currentLevel(0)
+	, m_currentLevel(3)
 	, m_pLevel(nullptr)
 {
 	m_LevelNames.push_back("Level1.txt");
 	m_LevelNames.push_back("Level2.txt");
 	m_LevelNames.push_back("Level3.txt");
+	m_LevelNames.push_back("Level4.txt");
 }
 
 GameplayState::~GameplayState()
@@ -155,6 +157,23 @@ void GameplayState::HandleCollision(int newPlayerX, int newPlayerY)
 			assert(collidedEnemy);
 			AudioManager::GetInstance()->PlayLoseLivesSound();
 			collidedEnemy->Remove();
+			m_player.SetPosition(newPlayerX, newPlayerY);
+
+			m_player.DecrementLives();
+			if (m_player.GetLives() < 0)
+			{
+				//TODO: Go to game over screen
+				AudioManager::GetInstance()->PlayLoseSound();
+				m_pOwner->LoadScene(StateMachineExampleGame::SceneName::Lose);
+			}
+			break;
+		}
+		case ActorType::Trap:
+		{
+			Trap* collidedTrap = dynamic_cast<Trap*>(collidedActor);
+			assert(collidedTrap);
+			AudioManager::GetInstance()->PlayLoseLivesSound();
+			collidedTrap->Remove();
 			m_player.SetPosition(newPlayerX, newPlayerY);
 
 			m_player.DecrementLives();

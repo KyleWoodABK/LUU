@@ -9,6 +9,7 @@
 #include "Door.h"
 #include "Goal.h"
 #include "Money.h"
+#include "Trap.h"
 
 using namespace std;
 
@@ -138,6 +139,10 @@ bool Level::ConvertLevel(int* playerX, int* playerY)
 			case 'b':
 				m_pLevelData[index] = ' ';
 				m_pActors.push_back(new Key(x, y, ActorColor::Blue));
+				break;
+			case 't':
+				m_pLevelData[index] = ' ';
+				m_pActors.push_back(new Trap(x, y, ActorColor::Red));
 				break;
 			case 'R':
 				m_pLevelData[index] = ' ';
