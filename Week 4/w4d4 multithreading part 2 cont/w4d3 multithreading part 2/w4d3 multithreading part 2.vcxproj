@@ -24,6 +24,7 @@
     <ProjectGuid>{6ed0762f-7563-435b-8edd-249f3d79ae44}</ProjectGuid>
     <RootNamespace>w4d3multithreadingpart2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>w4d4 multithreading part 2 cont</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
