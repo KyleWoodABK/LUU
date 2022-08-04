@@ -117,26 +117,30 @@ void GameplayState::ProcessInput()
 
 void GameplayState::CheckBeatLevel()
 {
-	++m_skipFrameCount;
-	if (m_skipFrameCount > kFramesToSkip)
+	if (m_DidBeatLevel)
 	{
-		m_DidBeatLevel = false;
-		m_skipFrameCount = 0;
-		++m_currentLevel;
-		if (m_currentLevel == m_LevelNames.size())
+		++m_skipFrameCount;
+		if (m_skipFrameCount > kFramesToSkip)
 		{
-			Utility::WriteHighScore(m_player.GetMoney());
+			m_DidBeatLevel = false;
+			m_skipFrameCount = 0;
+			++m_currentLevel;
+			if (m_currentLevel == m_LevelNames.size())
+			{
+				Utility::WriteHighScore(m_player.GetMoney());
 
-			AudioManager::GetInstance()->PlayWinSound();
+				AudioManager::GetInstance()->PlayWinSound();
 
-			m_pOwner->LoadScene(StateMachineExampleGame::SceneName::Win);
-		}
-		else
-		{
-			// On to the next level
-			Load();
+				m_pOwner->LoadScene(StateMachineExampleGame::SceneName::Win);
+			}
+			else
+			{
+				// On to the next level
+				Load();
+			}
 		}
 	}
+	
 }
 
 //TODO: Refactor
@@ -157,105 +161,14 @@ void GameplayState::HandleCollision(int newPlayerX, int newPlayerY)
 {
 	// UpdateActors also does a collision check based on the X,Y passed in
 	PlacableActor* collidedActor = m_pLevel->UpdateActors(newPlayerX, newPlayerY);
-	if (collidedActor != nullptr)
+	if (collidedActor != nullptr&&collidedActor->IsActive())
 	{
-		switch (collidedActor->GetType())
+		collidedActor->Collide(m_player, newPlayerX, newPlayerY, m_DidBeatLevel);
+		if (m_player.GetLives() < 0)
 		{
-		case ActorType::Enemy:
-		{
-			// HandleCollision(PlacableActor& CollidingActor)
-			// collidedActor->HandleCollision(m_player)
-			Enemy* collidedEnemy = dynamic_cast<Enemy*>(collidedActor);
-			assert(collidedEnemy);
-			AudioManager::GetInstance()->PlayLoseLivesSound();
-			collidedEnemy->Remove();
-			m_player.SetPosition(newPlayerX, newPlayerY);
-
-			m_player.DecrementLives();
-			if (m_player.GetLives() < 0)
-			{
-				//TODO: Go to game over screen
-				AudioManager::GetInstance()->PlayLoseSound();
-				m_pOwner->LoadScene(StateMachineExampleGame::SceneName::Lose);
-			}
-			break;
-		}
-		case ActorType::Trap:
-		{
-			Trap* collidedTrap = dynamic_cast<Trap*>(collidedActor);
-			assert(collidedTrap);
-			AudioManager::GetInstance()->PlayLoseLivesSound();
-			collidedTrap->Remove();
-			m_player.SetPosition(newPlayerX, newPlayerY);
-
-			m_player.DecrementLives();
-			if (m_player.GetLives() < 0)
-			{
-				//TODO: Go to game over screen
-				AudioManager::GetInstance()->PlayLoseSound();
-				m_pOwner->LoadScene(StateMachineExampleGame::SceneName::Lose);
-			}
-			break;
-		}
-		case ActorType::Money:
-		{
-			Money* collidedMoney = dynamic_cast<Money*>(collidedActor);
-			assert(collidedMoney);
-			AudioManager::GetInstance()->PlayMoneySound();
-			collidedMoney->Remove();
-			m_player.AddMoney(collidedMoney->GetWorth());
-			m_player.SetPosition(newPlayerX, newPlayerY);
-			break;
-		}
-		case ActorType::Key:
-		{
-			Key* collidedKey = dynamic_cast<Key*>(collidedActor);
-			assert(collidedKey);
-			if (!m_player.HasKey())
-			{
-				m_player.PickupKey(collidedKey);
-				collidedKey->Remove();
-				m_player.SetPosition(newPlayerX, newPlayerY);
-				AudioManager::GetInstance()->PlayKeyPickupSound();
-			}
-			break;
-		}
-		case ActorType::Door:
-		{
-			Door* collidedDoor = dynamic_cast<Door*>(collidedActor);
-			assert(collidedDoor);
-			if (!collidedDoor->IsOpen())
-			{
-				if (m_player.HasKey(collidedDoor->GetColor()))
-				{
-					collidedDoor->Open();
-					collidedDoor->Remove();
-					m_player.UseKey();
-					m_player.SetPosition(newPlayerX, newPlayerY);
-					AudioManager::GetInstance()->PlayDoorOpenSound();
-				}
-				else
-				{
-					AudioManager::GetInstance()->PlayDoorClosedSound();
-				}
-			}
-			else
-			{
-				m_player.SetPosition(newPlayerX, newPlayerY);
-			}
-			break;
-		}
-		case ActorType::Goal:
-		{
-			Goal* collidedGoal = dynamic_cast<Goal*>(collidedActor);
-			assert(collidedGoal);
-			collidedGoal->Remove();
-			m_player.SetPosition(newPlayerX, newPlayerY);
-			m_DidBeatLevel = true;
-			break;
-		}
-		default:
-			break;
+			//TODO: Go to game over screen
+			AudioManager::GetInstance()->PlayLoseSound();
+			m_pOwner->LoadScene(StateMachineExampleGame::SceneName::Lose);
 		}
 	}
 	else if (m_pLevel->IsSpace(newPlayerX, newPlayerY)) // no collision

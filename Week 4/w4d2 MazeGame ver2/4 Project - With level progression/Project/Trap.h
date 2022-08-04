@@ -7,5 +7,6 @@ public:
 
 	virtual ActorType GetType() override { return ActorType::Trap; }
 	virtual void Draw() override;
+	virtual void Collide(PlacableActor& player, int& newPlayerX, int& newPlayerY, bool& beatLevel) override;
 };
 

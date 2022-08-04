@@ -16,7 +16,7 @@ class GameplayState : public GameState
 	Player m_player;
 	Level* m_pLevel;
 
-	bool m_DidBeatLevel;
+	
 	int m_skipFrameCount;
 	static constexpr int kFramesToSkip = 2;
 
@@ -27,6 +27,8 @@ class GameplayState : public GameState
 public:
 	GameplayState(StateMachineExampleGame* pOwner);
 	~GameplayState();
+
+	bool m_DidBeatLevel;
 
 	virtual void Enter() override;
 	virtual bool Update(bool processInput = true) override;

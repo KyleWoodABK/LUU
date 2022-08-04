@@ -2,6 +2,8 @@
 #include <windows.h>
 
 #include "Key.h"
+#include "AudioManager.h"
+#include "Player.h"
 
 void Key::Draw()
 {
@@ -10,4 +12,15 @@ void Key::Draw()
 
 	std::cout << "+";
 	SetConsoleTextAttribute(console, (int)ActorColor::Regular);
+}
+
+void Key::Collide(PlacableActor& player, int& newPlayerX, int& newPlayerY, bool& beatLevel)
+{
+	if (!dynamic_cast<Player*>(&player)->HasKey())
+	{
+		AudioManager::GetInstance()->PlayKeyPickupSound();
+		dynamic_cast<Player*>(&player)->PickupKey(this);
+		Remove();
+		player.SetPosition(GetXPosition(), GetYPosition());
+	}
 }

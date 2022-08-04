@@ -43,10 +43,9 @@ public:
 
 	virtual ActorType GetType() = 0;
 	virtual void Draw() = 0;
-	virtual void Update()
-	{
-
-	}
+	virtual void Update() { }
+	// refactor collision handling out of gameplaystate to individual placable actor classes
+	virtual void Collide(PlacableActor& player, int& newPlayerX, int& newPlayerY, bool& beatLevel) { }
 
 protected:
 	Point* m_pPosition;

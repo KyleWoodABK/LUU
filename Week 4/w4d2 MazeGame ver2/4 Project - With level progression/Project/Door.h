@@ -10,6 +10,7 @@ public:
 	virtual ActorType GetType() override { return ActorType::Door;  }
 	bool IsOpen() { return m_isOpen;  }
 	void Open() { m_isOpen = true; }
+	virtual void Collide(PlacableActor& player, int& newPlayerX, int& newPlayerY, bool& beatLevel) override;
 
 private:
 	bool m_isOpen;

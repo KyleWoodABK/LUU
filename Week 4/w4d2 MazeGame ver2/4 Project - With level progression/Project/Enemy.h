@@ -8,6 +8,7 @@ public:
 	virtual ActorType GetType() override { return ActorType::Enemy; }
 	virtual void Draw() override;
 	virtual void Update() override;
+	virtual void Collide(PlacableActor& player, int& newPlayerX, int& newPlayerY, bool& beatLevel) override;
 
 protected:
 	void InitDirection();
