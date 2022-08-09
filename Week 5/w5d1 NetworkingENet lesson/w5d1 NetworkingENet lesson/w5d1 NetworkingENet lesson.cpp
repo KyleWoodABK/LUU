@@ -1,10 +1,11 @@
 #include <enet/enet.h>
+
 #include <iostream>
 using namespace std;
 
 ENetAddress address;
 ENetHost* server = nullptr;
-ENetHost* client=nullptr;
+ENetHost* client = nullptr;
 
 bool CreateServer()
 {
@@ -44,7 +45,8 @@ int main(int argc, char** argv)
     }
     atexit(enet_deinitialize);
 
-    
+
+
     cout << "1) Create Server " << endl;
     cout << "2) Create Client " << endl;
     int UserInput;
@@ -67,24 +69,52 @@ int main(int argc, char** argv)
                 switch (event.type)
                 {
                 case ENET_EVENT_TYPE_CONNECT:
-                    cout << "A new client connected from " << event.peer->address.host << ":" << event.peer->address.port << "." << endl;
+                    cout << "A new client connected from "
+                        << event.peer->address.host
+                        << ":" << event.peer->address.port
+                        << endl;
                     /* Store any relevant client information here. */
                     event.peer->data = (void*)("Client information");
+
+                    {
+                        /* Create a reliable packet of size 7 containing "packet\0" */
+                        ENetPacket* packet = enet_packet_create("hello",
+                            strlen("hello") + 1,
+                            ENET_PACKET_FLAG_RELIABLE);
+                        /* Extend the packet so and append the string "foo", so it now */
+                        /* contains "packetfoo\0"                                      */
+                        //enet_packet_resize(packet, strlen("packetfoo") + 1);
+                        //strcpy(&packet->data[strlen("packet")], "foo");
+                        /* Send the packet to the peer over channel id 0. */
+                        /* One could also broadcast the packet by         */
+                        enet_host_broadcast(server, 0, packet);
+                        //enet_peer_send(event.peer, 0, packet);
+
+                        /* One could just use enet_host_service() instead. */
+                        //enet_host_service();
+                        enet_host_flush(server);
+                    }
                     break;
                 case ENET_EVENT_TYPE_RECEIVE:
-                    cout << "A packet of length " << event.packet->dataLength << " containing " << (char*)event.packet->data << "was received from " << (char*)event.peer->data << "on channel " << event.channelID << "." << endl;
-                    /* Clean up the packet now that we're done using it. */
+                    cout << "A packet of length "
+                        << event.packet->dataLength << endl
+                        << "containing " << (char*)event.packet->data
+                        << endl;
+                    //<< "was received from " << (char*)event.peer->data
+                    //<< " on channel " << event.channelID << endl;
+                /* Clean up the packet now that we're done using it. */
                     enet_packet_destroy(event.packet);
 
                     break;
 
                 case ENET_EVENT_TYPE_DISCONNECT:
-                    cout << (char*)event.peer->data << " disconnected." << endl;
+                    cout << (char*)event.peer->data << "disconnected." << endl;
                     /* Reset the peer's client information. */
                     event.peer->data = NULL;
                 }
             }
-        } 
+        }
+
     }
     else if (UserInput == 2)
     {
@@ -113,8 +143,7 @@ int main(int argc, char** argv)
         if (enet_host_service(client, &event, 5000) > 0 &&
             event.type == ENET_EVENT_TYPE_CONNECT)
         {
-            cout<<"Connection to some.server.net:1234 succeeded."<<endl;
-            
+            cout << "Connection to 127.0.0.1:1234 succeeded." << endl;
         }
         else
         {
@@ -122,7 +151,40 @@ int main(int argc, char** argv)
             /* received. Reset the peer in the event the 5 seconds   */
             /* had run out without any significant event.            */
             enet_peer_reset(peer);
-            cout<<"Connection to 127.0.0.1:1234 failed."<<endl;
+            cout << "Connection to 127.0.0.1:1234 failed." << endl;
+        }
+
+        while (1)
+        {
+            ENetEvent event;
+            /* Wait up to 1000 milliseconds for an event. */
+            while (enet_host_service(client, &event, 1000) > 0)
+            {
+                switch (event.type)
+                {
+                case ENET_EVENT_TYPE_RECEIVE:
+                    cout << "A packet of length "
+                        << event.packet->dataLength << endl
+                        << "containing " << (char*)event.packet->data
+                        << endl;
+                    /* Clean up the packet now that we're done using it. */
+                    enet_packet_destroy(event.packet);
+
+                    {
+                        /* Create a reliable packet of size 7 containing "packet\0" */
+                        ENetPacket* packet = enet_packet_create("hi",
+                            strlen("hi") + 1,
+                            ENET_PACKET_FLAG_RELIABLE);
+
+                        enet_host_broadcast(client, 0, packet);
+                        //enet_peer_send(event.peer, 0, packet);
+
+                        /* One could just use enet_host_service() instead. */
+                        //enet_host_service();
+                        enet_host_flush(client);
+                    }
+                }
+            }
         }
     }
     else
@@ -139,6 +201,7 @@ int main(int argc, char** argv)
     {
         enet_host_destroy(client);
     }
+
 
     return EXIT_SUCCESS;
 }
