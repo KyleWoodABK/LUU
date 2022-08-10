@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="w5d1 NetworkingENet lesson.cpp">
+    <ClCompile Include="w5d2 enet server challenge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
