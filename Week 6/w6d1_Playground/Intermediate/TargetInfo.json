@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "w6d1_Playground",
+			"Path": "C:\\Users\\kwood\\source\\repos\\LUU\\Week 6\\w6d1_Playground\\Source\\w6d1_Playground.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "w6d1_PlaygroundEditor",
+			"Path": "C:\\Users\\kwood\\source\\repos\\LUU\\Week 6\\w6d1_Playground\\Source\\w6d1_PlaygroundEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

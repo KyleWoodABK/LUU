@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="w5d4 Bee challenge.cpp">
+    <ClCompile Include="Beehive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
