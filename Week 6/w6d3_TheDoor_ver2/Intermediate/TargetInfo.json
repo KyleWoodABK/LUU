@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "w6d3_TheDoor_ver2",
+			"Path": "C:\\Users\\kwood\\source\\repos\\LUU\\Week 6\\w6d3_TheDoor_ver2\\Source\\w6d3_TheDoor_ver2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "w6d3_TheDoor_ver2Editor",
+			"Path": "C:\\Users\\kwood\\source\\repos\\LUU\\Week 6\\w6d3_TheDoor_ver2\\Source\\w6d3_TheDoor_ver2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

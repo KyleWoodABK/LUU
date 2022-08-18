@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\source\\w6d3_thedoor_ver3\\w6d3_thedoor_ver3.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\intermediate\\build\\win64\\w6d3_thedoor_ver3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\intermediate\\build\\win64\\unrealeditor\\development\\w6d3_thedoor_ver3\\definitions.w6d3_thedoor_ver3.h",
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\source\\w6d3_thedoor_ver3\\w6d3_thedoor_ver3.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

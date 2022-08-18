@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\source\\w6d3_thedoor_ver3\\w6d3_thedoor_ver3gamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\intermediate\\build\\win64\\w6d3_thedoor_ver3editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\intermediate\\build\\win64\\unrealeditor\\development\\w6d3_thedoor_ver3\\definitions.w6d3_thedoor_ver3.h",
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\source\\w6d3_thedoor_ver3\\w6d3_thedoor_ver3gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver3\\intermediate\\build\\win64\\unrealeditor\\inc\\w6d3_thedoor_ver3\\w6d3_thedoor_ver3gamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\w6d3_TheDoor_ver2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\w6d3_TheDoor_ver2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\w6d3_TheDoor_ver2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\w6d3_TheDoor_ver2">
+      <UniqueIdentifier>{810CE80A-61DD-3045-A0E1-C72DD437F0CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\w6d3_TheDoor_ver2\w6d3_TheDoor_ver2.Build.cs">
+      <Filter>Source\w6d3_TheDoor_ver2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\w6d3_TheDoor_ver2\w6d3_TheDoor_ver2.cpp">
+      <Filter>Source\w6d3_TheDoor_ver2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\w6d3_TheDoor_ver2\w6d3_TheDoor_ver2.h">
+      <Filter>Source\w6d3_TheDoor_ver2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\w6d3_TheDoor_ver2\w6d3_TheDoor_ver2GameModeBase.cpp">
+      <Filter>Source\w6d3_TheDoor_ver2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\w6d3_TheDoor_ver2\w6d3_TheDoor_ver2GameModeBase.h">
+      <Filter>Source\w6d3_TheDoor_ver2</Filter>
+    </ClInclude>
+    <Filter Include="Source\w6d3_TheDoor_ver2\Private">
+      <UniqueIdentifier>{1316ED79-C795-3ADB-8332-33A3386E3BFE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\w6d3_TheDoor_ver2\Private\DoorInteractionComponent2.cpp">
+      <Filter>Source\w6d3_TheDoor_ver2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\w6d3_TheDoor_ver2\Public">
+      <UniqueIdentifier>{57B41DFC-17CE-3295-9A7F-46CBDF3EC01E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\w6d3_TheDoor_ver2\Public\DoorInteractionComponent2.h">
+      <Filter>Source\w6d3_TheDoor_ver2\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

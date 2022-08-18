@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-w6d3_TheDoor_ver3.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\w6d3_TheDoor_ver3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\DoorInteractionComponent.cpp.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\w6d3_TheDoor_ver3.cpp.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\w6d3_TheDoor_ver3GameModeBase.cpp.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\DoorInteractionComponent.gen.cpp.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\w6d3_TheDoor_ver3.init.gen.cpp.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\w6d3_TheDoor_ver3GameModeBase.gen.cpp.obj"
+"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\Default.rc2.res"
+/OUT:"C:\Users\kwood\source\repos\LUU\Week 6\w6d3_TheDoor_ver3\Intermediate\Build\Win64\UnrealEditor\Development\w6d3_TheDoor_ver3\UnrealEditor-w6d3_TheDoor_ver3.lib"

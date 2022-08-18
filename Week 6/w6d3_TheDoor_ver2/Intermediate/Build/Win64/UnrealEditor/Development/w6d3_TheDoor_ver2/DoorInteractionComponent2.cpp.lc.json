@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver2\\source\\w6d3_thedoor_ver2\\private\\doorinteractioncomponent2.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver2\\intermediate\\build\\win64\\w6d3_thedoor_ver2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver2\\intermediate\\build\\win64\\unrealeditor\\development\\w6d3_thedoor_ver2\\definitions.w6d3_thedoor_ver2.h",
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver2\\source\\w6d3_thedoor_ver2\\public\\doorinteractioncomponent2.h",
+            "c:\\users\\kwood\\source\\repos\\luu\\week 6\\w6d3_thedoor_ver2\\intermediate\\build\\win64\\unrealeditor\\inc\\w6d3_thedoor_ver2\\doorinteractioncomponent2.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbox.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\triggerbase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\triggerbase.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\triggerbox.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
