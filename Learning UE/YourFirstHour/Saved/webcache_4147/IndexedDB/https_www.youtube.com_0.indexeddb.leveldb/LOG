@@ -1,0 +1,5 @@
+2022/08/18-10:33:20.536 6b2c Reusing MANIFEST C:/Users/kwood/source/repos/LUU/Learning UE/YourFirstHour/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/18-10:50:50.141 75b0 Level-0 table #5: started
+2022/08/18-10:50:50.155 75b0 Level-0 table #5: 7586 bytes OK
+2022/08/18-10:50:50.156 75b0 Delete type=0 #3
+2022/08/18-10:50:50.156 75b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
