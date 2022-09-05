@@ -1,14 +1,51 @@
+# Ignore all files by default, but scan all directories.
+*
+!*/
 
-Week 2/w1d1/
-Week 2/w1d2/
-Week 6/w6d1_Playground/Intermediate/Build/Win64/w6d1_PlaygroundEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
-Week 6/w6d1_Playground/.vs/w6d1_Playground/v17/Browse.VC.db
-Week 6/w6d1_Playground/.vs/w6d1_Playground/v17/ipch/6ac1ad1ce5da0a3c.ipch
-Week 6/w6d1_Playground/.vs/w6d1_Playground/v17/ipch/f67ecc2cfff7eac8.ipch
-Week 6/w6d3_TheDoor_ver2/.vs/w6d3_TheDoor_ver2/v17/Browse.VC.db
-Week 6/w6d3_TheDoor_ver2/Intermediate/Build/Win64/w6d3_TheDoor_ver2Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
-Week 6/w6d3_TheDoor_ver3/.vs/w6d3_TheDoor_ver3/v17/Browse.VC.db
-Week 6/w6d3_TheDoor_ver3/Intermediate/Build/Win64/w6d3_TheDoor_ver3Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
-Week 6/w6d3_TheDoor_ver3/.vs/w6d3_TheDoor_ver3/v17/ipch/31a9b0b3208f7d56.ipch
-Week 6/w6d3_TheDoor_ver2/.vs/w6d3_TheDoor_ver2/v17/ipch/687174a65f1d1f8c.ipch
-Week 6/w6d3_TheDoor_ver2/.vs/w6d3_TheDoor_ver2/v17/ipch/1bb364edfc0ec632.ipch
+# Do not ignore git files in the root of the repo.
+!/.git*
+
+# Do not ignore current project's `.uproject`.
+!/*.uproject
+
+# Do not ignore source, config and plugins dirs.
+!/Source/**
+!/Config/**
+!/Plugins/**
+
+# Only allow .uasset and .umap files from /Content dir.
+# They're tracked by git-lfs, don't forget to track other
+# files if adding them here.
+!/Content/**/*.uasset
+!/Content/**/*.umap
+
+# Allow any files from /RawContent dir.
+# Any file in /RawContent dir will be managed by git lfs.
+!/RawContent/**/*
+
+# OS/platform generated files.
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Visual Studio
+.vs
