@@ -1,0 +1,5 @@
+2022/08/30-10:41:35.281 1518 Reusing MANIFEST C:/Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/31-11:24:51.223 25a0 Level-0 table #5: started
+2022/08/31-11:24:51.228 25a0 Level-0 table #5: 6800 bytes OK
+2022/08/31-11:24:51.229 25a0 Delete type=0 #3
+2022/08/31-11:24:51.230 25a0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
