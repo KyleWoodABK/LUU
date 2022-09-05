@@ -736,3 +736,1270 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.05-17.32.30:485][738]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
 [2022.09.05-17.32.30:485][738]LogFileHelpers: Loading map 'gym_map' took 0.109
 [2022.09.05-17.33.33:052][472]LogDerivedDataCache: C:/Users/kwood/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.216 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.05-18.33.33:088][399]LogDerivedDataCache: C:/Users/kwood/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.220 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.05-19.24.42:138][533]LogSlate: Window 'New Packed Level Actor' being destroyed
+[2022.09.05-19.24.42:167][533]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.05-19.25.09:967][533]LogSlate: Window 'Save Level As' being destroyed
+[2022.09.05-19.25.10:023][533]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/8/8U/DUH61PRU2ZRP8ELLGM7PYV
+[2022.09.05-19.25.10:056][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.09.05-19.25.10:066][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.09.05-19.25.10:073][533]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.006216 seconds
+[2022.09.05-19.25.10:079][533]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/MASS_ruins_01
+[2022.09.05-19.25.10:079][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MASS_ruins_01303E30154FC670095ABDEFA0A954AE24.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/MASS_ruins_01.umap'
+[2022.09.05-19.25.10:131][533]LogFileHelpers: Saving map 'MASS_ruins_01' took 0.154
+[2022.09.05-19.25.10:181][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-19.25.10:183][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-19.25.10:190][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.09.05-19.25.10:191][533]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2022.09.05-19.25.48:203][533]LogSlate: Window 'Save Asset As' being destroyed
+[2022.09.05-19.25.48:212][533]LogLinker: Warning: Failed to load '/Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01': Can't find file.
+[2022.09.05-19.25.48:212][533]LogLinker: Warning: Failed to load '/Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01': Can't find file.
+[2022.09.05-19.25.48:212][533]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01'
+[2022.09.05-19.25.48:231][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.05-19.25.48:253][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.09.05-19.25.48:292][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.09.05-19.25.48:299][533]LogSavePackage: Moving output files for package: /Game/castle_environment/gym_map
+[2022.09.05-19.25.48:300][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_map21B1B90F4AEA29C8AB8CC59F6BD92542.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/gym_map.umap'
+[2022.09.05-19.25.48:310][533]LogFileHelpers: Saving map 'gym_map' took 0.024
+[2022.09.05-19.25.48:311][533]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/3/8U/HVPEPR10IBCVJTERQFUNH2
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/7/XW/2AYH37HV57XU05XK7NKYYQ
+[2022.09.05-19.25.48:314][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/3/8U/HVPEPR10IBCVJTERQFUNH2
+[2022.09.05-19.25.48:314][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/HVPEPR10IBCVJTERQFUNH28FDA6E1145D2CA2ABC9B4481FBA8B84C.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_01/3/8U/HVPEPR10IBCVJTERQFUNH2.uasset'
+[2022.09.05-19.25.48:317][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/7/XW/2AYH37HV57XU05XK7NKYYQ
+[2022.09.05-19.25.48:317][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/2AYH37HV57XU05XK7NKYYQC4853923484CF15143A2539D093AD50B.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_01/7/XW/2AYH37HV57XU05XK7NKYYQ.uasset'
+[2022.09.05-19.25.48:319][533]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/3/8U/HVPEPR10IBCVJTERQFUNH2
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/7/XW/2AYH37HV57XU05XK7NKYYQ
+[2022.09.05-19.25.48:325][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.09.05-19.25.48:327][533]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/MASS_ruins_01
+[2022.09.05-19.25.48:328][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MASS_ruins_017B2D18B046456C57E708E2B0521AC824.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/MASS_ruins_01.umap'
+[2022.09.05-19.25.48:329][533]LogFileHelpers: Saving map 'MASS_ruins_01' took 0.019
+[2022.09.05-19.25.48:331][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/3/8U/HVPEPR10IBCVJTERQFUNH2
+[2022.09.05-19.25.48:331][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/HVPEPR10IBCVJTERQFUNH2264778D3484D1B07332BACA6DC8DD34F.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_01/3/8U/HVPEPR10IBCVJTERQFUNH2.uasset'
+[2022.09.05-19.25.48:334][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_01/7/XW/2AYH37HV57XU05XK7NKYYQ
+[2022.09.05-19.25.48:334][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/2AYH37HV57XU05XK7NKYYQ399E367D438184D7EE64F19AEC76F5AB.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_01/7/XW/2AYH37HV57XU05XK7NKYYQ.uasset'
+[2022.09.05-19.25.48:439][533]LogWorld: UWorld::CleanupWorld for MASS_ruins_01, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-19.25.48:439][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.05-19.25.48:447][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.09.05-19.25.48:452][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.09.05-19.25.48:453][533]MapCheck: New page: Map Check
+[2022.09.05-19.25.48:453][533]LightingResults: New page: Lighting Build
+[2022.09.05-19.25.48:458][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.05-19.25.48:463][533]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/castle_environment/mass/MASS_ruins_01_LevelInstance_7cea95b1da8db314_0) is flushing async loading
+[2022.09.05-19.25.48:463][533]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.09.05-19.25.48:470][533]LogLevelInstance: Loaded 1 levels in 0.007 seconds
+[2022.09.05-19.25.48:472][533]LogMaterial: Display: Material /Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material.M_MS_Surface_Material needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2022.09.05-19.25.48:477][533]LogMaterial: Display: Missing cached shadermap for M_MS_Surface_Material in PCD3D_SM5, Default, SM5 (DDC key hash: 82C274F35148E18D4A35D5D97BD2BC0B84F5FABB), compiling. 
+[2022.09.05-19.25.48:589][533]PackedLevelActor: Packing of '/Game/castle_environment/mass/MASS_ruins_01' started...
+[2022.09.05-19.25.48:589][533]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_01_LevelInstance_7cea95b1da8db314_0.MASS_ruins_01_LevelInstance_7cea95b1da8db314_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE913301_1773938535' packed successfully
+[2022.09.05-19.25.48:589][533]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_01_LevelInstance_7cea95b1da8db314_0.MASS_ruins_01_LevelInstance_7cea95b1da8db314_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE913301_1773940536' packed successfully
+[2022.09.05-19.25.48:589][533]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_01_LevelInstance_7cea95b1da8db314_0.MASS_ruins_01_LevelInstance_7cea95b1da8db314_0:PersistentLevel.LevelInstanceEditorInstanceActor_0' of type '/Script/Engine.LevelInstanceEditorInstanceActor' ignored (Transient Class Discard)
+[2022.09.05-19.25.48:589][533]PackedLevelActor: Packing '/Game/castle_environment/mass/MASS_ruins_01' completed with 0 warning(s)
+[2022.09.05-19.25.48:757][533]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01
+[2022.09.05-19.25.48:757][533]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/BPP_MASS_ruins_0157A48ACE49B6B366F101BDA98B80646F.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.uasset'
+[2022.09.05-19.25.48:760][533]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.09.05-19.25.48:760][533]LogWorld: UWorld::CleanupWorld for MASS_ruins_01_LevelInstance_7cea95b1da8db314_0, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-19.25.48:760][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.05-19.25.48:765][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.05-19.25.48:771][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.09.05-19.25.48:771][533]MapCheck: New page: Map Check
+[2022.09.05-19.25.48:771][533]LightingResults: New page: Lighting Build
+[2022.09.05-19.25.48:778][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.05-19.25.48:778][533]LogLevelInstance: Unloaded 1 levels in 0.02 seconds
+[2022.09.05-19.25.48:840][533]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.05-19.25.48:840][533]LogContentValidation: Display: Validating Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01
+[2022.09.05-19.25.48:840][533]LogContentValidation: Display: Validating World /Game/castle_environment/gym_map.gym_map
+[2022.09.05-19.25.48:840][533]LogContentValidation: Display: Validating World /Game/castle_environment/mass/MASS_ruins_01.MASS_ruins_01
+[2022.09.05-19.25.48:844][533]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_01.MASS_ruins_01:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE913301_1773938535
+[2022.09.05-19.25.48:844][533]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_01.MASS_ruins_01:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE913301_1773940536
+[2022.09.05-19.25.52:219][710]LogShaderCompilers: Display: ================================================
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Total job queries 42, among them cache hits 0 (0.00%)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Shaders Compiled: 42
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Jobs assigned 42, completed 2 (4.76%)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.03 s
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Job execution time: average 3.60 s, max 3.60 s
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Job life time (pending + execution): average 3.63 s, max 3.63
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.63 s
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 4.67 jobs/batch
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Average processing rate: 0.55 jobs/sec
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Effective parallelization: 0.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 1.47 sec, max 1.47 sec, min 1.47 sec)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 1.33 sec, max 1.33 sec, min 1.33 sec)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 52.42% of total time (compiled    1 times, average 1.47 sec, max 1.47 sec, min 1.47 sec)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 47.58% of total time (compiled    1 times, average 1.33 sec, max 1.33 sec, min 1.33 sec)
+[2022.09.05-19.25.52:220][710]LogShaderCompilers: Display: ================================================
+[2022.09.05-19.26.19:017][294]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01_C
+[2022.09.05-19.26.19:017][294]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01_C
+[2022.09.05-19.26.19:021][294]LogActorFactory: Actor Factory spawned Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01 as actor: BPP_MASS_ruins_01_C /Game/castle_environment/gym_map.gym_map:PersistentLevel.BPP_MASS_ruins_01_C_1
+[2022.09.05-19.26.19:022][294]LogActorFactory: Actor Factory spawned Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01 as actor: BPP_MASS_ruins_01_C /Game/castle_environment/gym_map.gym_map:PersistentLevel.BPP_MASS_ruins_01_C_1
+[2022.09.05-19.26.24:139][599]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01_C
+[2022.09.05-19.26.24:139][599]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01_C
+[2022.09.05-19.26.24:140][599]LogActorFactory: Actor Factory spawned Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01 as actor: BPP_MASS_ruins_01_C /Game/castle_environment/gym_map.gym_map:PersistentLevel.BPP_MASS_ruins_01_C_2
+[2022.09.05-19.26.24:141][599]LogActorFactory: Actor Factory spawned Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_01.BPP_MASS_ruins_01 as actor: BPP_MASS_ruins_01_C /Game/castle_environment/gym_map.gym_map:PersistentLevel.BPP_MASS_ruins_01_C_2
+[2022.09.05-19.26.52:935][316]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0)
+[2022.09.05-19.26.53:001][320]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0)
+[2022.09.05-19.26.53:334][340]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0)
+[2022.09.05-19.26.53:535][352]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0)
+[2022.09.05-19.33.33:114][627]LogDerivedDataCache: C:/Users/kwood/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.246 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.05-19.34.28:671][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.09.05-19.34.28:678][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/castle_environment/gym_map_Auto1
+[2022.09.05-19.34.28:678][792]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_map_Auto1956D6F354974B58F48827894B8D1FB48.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Autosaves/Game/castle_environment/gym_map_Auto1.umap'
+[2022.09.05-19.34.28:682][792]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/castle_environment/gym_map' took 0.019
+[2022.09.05-19.34.28:682][792]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.019
+[2022.09.05-19.34.28:683][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material] ([1] browsable assets)...
+[2022.09.05-19.34.28:766][792]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material.M_MS_Surface_Material]
+[2022.09.05-19.34.28:766][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material]
+[2022.09.05-19.34.28:769][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material_Auto1
+[2022.09.05-19.34.28:770][792]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/M_MS_Surface_Material_Auto1C9CB8162400BDF30CE5888A22648B606.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Autosaves/Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material_Auto1.uasset'
+[2022.09.05-19.34.28:770][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K] ([1] browsable assets)...
+[2022.09.05-19.34.28:791][792]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K.MI_Roman_Stone_Wall_tfdkdb2g_2K]
+[2022.09.05-19.34.28:791][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K]
+[2022.09.05-19.34.28:793][792]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K_Auto1
+[2022.09.05-19.34.28:793][792]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MI_Roman_Stone_Wall_tfdkdb2g_2K_1ACC66A44E5515502CE3CFAE7076662A.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Autosaves/Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K_Auto1.uasset'
+[2022.09.05-19.34.28:794][792]LogFileHelpers: Auto-saving content packages took 0.111
+[2022.09.05-20.01.25:367][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.09.05-20.01.25:373][283]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/castle_environment/gym_map_Auto2
+[2022.09.05-20.01.25:373][283]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_map_Auto2F2E92F7B4DF1E38A97CB8DB0EC04E3A6.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Autosaves/Game/castle_environment/gym_map_Auto2.umap'
+[2022.09.05-20.01.25:377][283]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/castle_environment/gym_map' took 0.031
+[2022.09.05-20.01.25:377][283]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2022.09.05-20.01.59:135][145]LogSlate: Window 'New Packed Level Actor' being destroyed
+[2022.09.05-20.01.59:163][145]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.05-20.02.14:566][145]LogSlate: Window 'Save Level As' being destroyed
+[2022.09.05-20.02.14:605][145]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/7/UW/9792UHAEZYC0K4UGV9CXW3
+[2022.09.05-20.02.14:627][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.09.05-20.02.14:635][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2022.09.05-20.02.14:638][145]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/MASS_ruins_02
+[2022.09.05-20.02.14:638][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MASS_ruins_022C6559E141B44CABBE47139179EA7693.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/MASS_ruins_02.umap'
+[2022.09.05-20.02.14:715][145]LogFileHelpers: Saving map 'MASS_ruins_02' took 0.138
+[2022.09.05-20.02.14:749][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-20.02.14:749][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-20.02.14:755][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.09.05-20.02.14:756][145]LogEditorActor: Deleted 2 Actors (0.009 secs)
+[2022.09.05-20.02.18:137][145]LogSlate: Window 'Save Asset As' being destroyed
+[2022.09.05-20.02.18:149][145]LogLinker: Warning: Failed to load '/Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_02': Can't find file.
+[2022.09.05-20.02.18:149][145]LogLinker: Warning: Failed to load '/Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_02': Can't find file.
+[2022.09.05-20.02.18:149][145]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_02.BPP_MASS_ruins_02'
+[2022.09.05-20.02.18:178][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.05-20.02.18:197][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.05-20.02.18:227][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.14ms
+[2022.09.05-20.02.18:232][145]LogSavePackage: Moving output files for package: /Game/castle_environment/gym_map
+[2022.09.05-20.02.18:233][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_mapB3EBC8F1436255AB5C95FEA7BAF17796.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/gym_map.umap'
+[2022.09.05-20.02.18:240][145]LogFileHelpers: Saving map 'gym_map' took 0.019
+[2022.09.05-20.02.18:241][145]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/D/NC/ABNNUA9MLHTIL910126YSJ
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/9/I6/00NBHI6VU2D2Y7LA4KKGGC
+[2022.09.05-20.02.18:242][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/D/NC/ABNNUA9MLHTIL910126YSJ
+[2022.09.05-20.02.18:243][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/ABNNUA9MLHTIL910126YSJ9F7176AE44A07F8693B98DA8309AC6A0.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_02/D/NC/ABNNUA9MLHTIL910126YSJ.uasset'
+[2022.09.05-20.02.18:245][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/9/I6/00NBHI6VU2D2Y7LA4KKGGC
+[2022.09.05-20.02.18:245][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/00NBHI6VU2D2Y7LA4KKGGC8CACEDBB45E9CE3251D107ADE8A5BABA.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_02/9/I6/00NBHI6VU2D2Y7LA4KKGGC.uasset'
+[2022.09.05-20.02.18:247][145]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/D/NC/ABNNUA9MLHTIL910126YSJ
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/9/I6/00NBHI6VU2D2Y7LA4KKGGC
+[2022.09.05-20.02.18:252][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.09.05-20.02.18:255][145]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/MASS_ruins_02
+[2022.09.05-20.02.18:255][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MASS_ruins_02B8BA0E0149D4E0F5D0F85F92844C39D8.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/MASS_ruins_02.umap'
+[2022.09.05-20.02.18:277][145]LogFileHelpers: Saving map 'MASS_ruins_02' took 0.036
+[2022.09.05-20.02.18:278][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/D/NC/ABNNUA9MLHTIL910126YSJ
+[2022.09.05-20.02.18:279][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/ABNNUA9MLHTIL910126YSJ9EFA93DF4CE271FE755FC1A0037DFDD4.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_02/D/NC/ABNNUA9MLHTIL910126YSJ.uasset'
+[2022.09.05-20.02.18:281][145]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_02/9/I6/00NBHI6VU2D2Y7LA4KKGGC
+[2022.09.05-20.02.18:282][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/00NBHI6VU2D2Y7LA4KKGGCF9AC15C1434A139ACBBC90909997320D.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_02/9/I6/00NBHI6VU2D2Y7LA4KKGGC.uasset'
+[2022.09.05-20.02.18:333][145]LogWorld: UWorld::CleanupWorld for MASS_ruins_02, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.02.18:334][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.05-20.02.18:345][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.09.05-20.02.18:350][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.09.05-20.02.18:351][145]MapCheck: New page: Map Check
+[2022.09.05-20.02.18:351][145]LightingResults: New page: Lighting Build
+[2022.09.05-20.02.18:356][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2022.09.05-20.02.18:361][145]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/castle_environment/mass/MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0) is flushing async loading
+[2022.09.05-20.02.18:361][145]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.09.05-20.02.18:366][145]LogLevelInstance: Loaded 1 levels in 0.006 seconds
+[2022.09.05-20.02.18:367][145]PackedLevelActor: Packing of '/Game/castle_environment/mass/MASS_ruins_02' started...
+[2022.09.05-20.02.18:367][145]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0.MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE933301_1851018890' packed successfully
+[2022.09.05-20.02.18:367][145]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0.MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE933301_1851017889' packed successfully
+[2022.09.05-20.02.18:367][145]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0.MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0:PersistentLevel.LevelInstanceEditorInstanceActor_0' of type '/Script/Engine.LevelInstanceEditorInstanceActor' ignored (Transient Class Discard)
+[2022.09.05-20.02.18:367][145]PackedLevelActor: Packing '/Game/castle_environment/mass/MASS_ruins_02' completed with 0 warning(s)
+[2022.09.05-20.02.18:445][145]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_02
+[2022.09.05-20.02.18:445][145]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/BPP_MASS_ruins_0200F534054DA190869EF8AE9859D23745.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/Blueprints/BPP_MASS_ruins_02.uasset'
+[2022.09.05-20.02.18:447][145]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.09.05-20.02.18:447][145]LogWorld: UWorld::CleanupWorld for MASS_ruins_02_LevelInstance_6df34bfd6c63087b_0, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.02.18:447][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.05-20.02.18:453][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.09.05-20.02.18:459][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.09.05-20.02.18:459][145]MapCheck: New page: Map Check
+[2022.09.05-20.02.18:459][145]LightingResults: New page: Lighting Build
+[2022.09.05-20.02.18:463][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.14ms
+[2022.09.05-20.02.18:464][145]LogLevelInstance: Unloaded 1 levels in 0.018 seconds
+[2022.09.05-20.02.18:489][145]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.05-20.02.18:489][145]LogContentValidation: Display: Validating Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_02.BPP_MASS_ruins_02
+[2022.09.05-20.02.18:489][145]LogContentValidation: Display: Validating World /Game/castle_environment/gym_map.gym_map
+[2022.09.05-20.02.18:489][145]LogContentValidation: Display: Validating World /Game/castle_environment/mass/MASS_ruins_02.MASS_ruins_02
+[2022.09.05-20.02.18:493][145]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_02.MASS_ruins_02:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE933301_1851017889
+[2022.09.05-20.02.18:493][145]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_02.MASS_ruins_02:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE933301_1851018890
+[2022.09.05-20.05.28:130][438]Cmd: PIVOT SNAPPED
+[2022.09.05-20.08.27:319][943]LogSlate: Window 'New Packed Level Actor' being destroyed
+[2022.09.05-20.08.27:325][943]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.05-20.08.38:128][943]LogSlate: Window 'Save Level As' being destroyed
+[2022.09.05-20.08.38:168][943]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/DL/49LH9ZJR1F6HUKI3BYP8H7
+[2022.09.05-20.08.38:191][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.05-20.08.38:198][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.09.05-20.08.38:201][943]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/MASS_ruins_03
+[2022.09.05-20.08.38:201][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MASS_ruins_03B200C9784FDAB620F8BA4DACEB48926F.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/MASS_ruins_03.umap'
+[2022.09.05-20.08.38:257][943]LogFileHelpers: Saving map 'MASS_ruins_03' took 0.122
+[2022.09.05-20.08.38:307][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-20.08.38:307][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-20.08.38:308][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.05-20.08.38:313][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.09.05-20.08.38:319][943]LogEditorActor: Deleted 3 Actors (0.012 secs)
+[2022.09.05-20.08.41:075][943]LogSlate: Window 'Save Asset As' being destroyed
+[2022.09.05-20.08.41:082][943]LogLinker: Warning: Failed to load '/Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_03': Can't find file.
+[2022.09.05-20.08.41:083][943]LogLinker: Warning: Failed to load '/Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_03': Can't find file.
+[2022.09.05-20.08.41:083][943]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_03.BPP_MASS_ruins_03'
+[2022.09.05-20.08.41:094][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.05-20.08.41:112][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.09.05-20.08.41:146][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.09.05-20.08.41:153][943]LogSavePackage: Moving output files for package: /Game/castle_environment/gym_map
+[2022.09.05-20.08.41:154][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_map4941E0C1440ED3EB9CF81F89BE8D0320.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/gym_map.umap'
+[2022.09.05-20.08.41:161][943]LogFileHelpers: Saving map 'gym_map' took 0.020
+[2022.09.05-20.08.41:162][943]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/C/FE/64RIJSRPIRNVAC2GDOVC2A
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/D/9S/Y713FWSL3OY8CRHRQGV6CD
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/9J/FP501Y6LJY82MZB7I211SG
+[2022.09.05-20.08.41:163][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/C/FE/64RIJSRPIRNVAC2GDOVC2A
+[2022.09.05-20.08.41:163][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/64RIJSRPIRNVAC2GDOVC2AEAA244D74D53798170BE8C899C4CAF86.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_03/C/FE/64RIJSRPIRNVAC2GDOVC2A.uasset'
+[2022.09.05-20.08.41:166][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/D/9S/Y713FWSL3OY8CRHRQGV6CD
+[2022.09.05-20.08.41:166][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Y713FWSL3OY8CRHRQGV6CDC11875264AE225BD4C4AF898198A3289.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_03/D/9S/Y713FWSL3OY8CRHRQGV6CD.uasset'
+[2022.09.05-20.08.41:168][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/9J/FP501Y6LJY82MZB7I211SG
+[2022.09.05-20.08.41:168][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/FP501Y6LJY82MZB7I211SGD1B46D7E45BDC0493FCADEB153CDDB30.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/9J/FP501Y6LJY82MZB7I211SG.uasset'
+[2022.09.05-20.08.41:169][943]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/C/FE/64RIJSRPIRNVAC2GDOVC2A
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/D/9S/Y713FWSL3OY8CRHRQGV6CD
+/Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/9J/FP501Y6LJY82MZB7I211SG
+[2022.09.05-20.08.41:175][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.09.05-20.08.41:178][943]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/MASS_ruins_03
+[2022.09.05-20.08.41:179][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MASS_ruins_03B8716340458B2EC203353E9B54149818.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/MASS_ruins_03.umap'
+[2022.09.05-20.08.41:180][943]LogFileHelpers: Saving map 'MASS_ruins_03' took 0.019
+[2022.09.05-20.08.41:181][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/C/FE/64RIJSRPIRNVAC2GDOVC2A
+[2022.09.05-20.08.41:182][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/64RIJSRPIRNVAC2GDOVC2A90648D8E4ED6E77600D5F9A3D2A2A2FC.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_03/C/FE/64RIJSRPIRNVAC2GDOVC2A.uasset'
+[2022.09.05-20.08.41:184][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/D/9S/Y713FWSL3OY8CRHRQGV6CD
+[2022.09.05-20.08.41:184][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Y713FWSL3OY8CRHRQGV6CD07BB4FCB4D0C739F8F1D349E6E9FBAF9.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_03/D/9S/Y713FWSL3OY8CRHRQGV6CD.uasset'
+[2022.09.05-20.08.41:187][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/9J/FP501Y6LJY82MZB7I211SG
+[2022.09.05-20.08.41:187][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/FP501Y6LJY82MZB7I211SG8A952C87430A608E7E14068ECFA593EC.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/__ExternalActors__/castle_environment/mass/MASS_ruins_03/3/9J/FP501Y6LJY82MZB7I211SG.uasset'
+[2022.09.05-20.08.41:234][943]LogWorld: UWorld::CleanupWorld for MASS_ruins_03, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.08.41:234][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.05-20.08.41:240][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.09.05-20.08.41:245][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.09.05-20.08.41:245][943]MapCheck: New page: Map Check
+[2022.09.05-20.08.41:245][943]LightingResults: New page: Lighting Build
+[2022.09.05-20.08.41:250][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.05-20.08.41:253][943]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/castle_environment/mass/MASS_ruins_03_LevelInstance_dbf9540e366363ea_0) is flushing async loading
+[2022.09.05-20.08.41:253][943]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.09.05-20.08.41:256][943]LogLevelInstance: Loaded 1 levels in 0.004 seconds
+[2022.09.05-20.08.41:257][943]PackedLevelActor: Packing of '/Game/castle_environment/mass/MASS_ruins_03' started...
+[2022.09.05-20.08.41:257][943]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_03_LevelInstance_dbf9540e366363ea_0.MASS_ruins_03_LevelInstance_dbf9540e366363ea_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE943301_1160840069' packed successfully
+[2022.09.05-20.08.41:257][943]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_03_LevelInstance_dbf9540e366363ea_0.MASS_ruins_03_LevelInstance_dbf9540e366363ea_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE943301_1160839067' packed successfully
+[2022.09.05-20.08.41:257][943]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_03_LevelInstance_dbf9540e366363ea_0.MASS_ruins_03_LevelInstance_dbf9540e366363ea_0:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE943301_1160840068' packed successfully
+[2022.09.05-20.08.41:257][943]PackedLevelActor: Actor '/Temp/Game/castle_environment/mass/MASS_ruins_03_LevelInstance_dbf9540e366363ea_0.MASS_ruins_03_LevelInstance_dbf9540e366363ea_0:PersistentLevel.LevelInstanceEditorInstanceActor_0' of type '/Script/Engine.LevelInstanceEditorInstanceActor' ignored (Transient Class Discard)
+[2022.09.05-20.08.41:258][943]PackedLevelActor: Packing '/Game/castle_environment/mass/MASS_ruins_03' completed with 0 warning(s)
+[2022.09.05-20.08.41:304][943]LogSavePackage: Moving output files for package: /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_03
+[2022.09.05-20.08.41:304][943]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/BPP_MASS_ruins_03B857DE86424B02711713B299873EA373.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/mass/Blueprints/BPP_MASS_ruins_03.uasset'
+[2022.09.05-20.08.41:305][943]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.09.05-20.08.41:305][943]LogWorld: UWorld::CleanupWorld for MASS_ruins_03_LevelInstance_dbf9540e366363ea_0, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.08.41:305][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.05-20.08.41:311][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.05-20.08.41:317][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.09.05-20.08.41:317][943]MapCheck: New page: Map Check
+[2022.09.05-20.08.41:317][943]LightingResults: New page: Lighting Build
+[2022.09.05-20.08.41:322][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.09.05-20.08.41:322][943]LogLevelInstance: Unloaded 1 levels in 0.018 seconds
+[2022.09.05-20.08.41:344][943]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.05-20.08.41:345][943]LogContentValidation: Display: Validating World /Game/castle_environment/gym_map.gym_map
+[2022.09.05-20.08.41:345][943]LogContentValidation: Display: Validating Blueprint /Game/castle_environment/mass/Blueprints/BPP_MASS_ruins_03.BPP_MASS_ruins_03
+[2022.09.05-20.08.41:345][943]LogContentValidation: Display: Validating World /Game/castle_environment/mass/MASS_ruins_03.MASS_ruins_03
+[2022.09.05-20.08.41:348][943]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_03.MASS_ruins_03:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE943301_1160839067
+[2022.09.05-20.08.41:349][943]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_03.MASS_ruins_03:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE943301_1160840068
+[2022.09.05-20.08.41:349][943]LogContentValidation: Display: Validating StaticMeshActor /Game/castle_environment/mass/MASS_ruins_03.MASS_ruins_03:PersistentLevel.StaticMeshActor_UAID_B44506C6F7FE943301_1160840069
+[2022.09.05-20.17.34:551][249]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0)
+[2022.09.05-20.17.34:590][252]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0)
+[2022.09.05-20.17.34:990][276]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0)
+[2022.09.05-20.17.35:040][279]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/castle_environment/gym_map.gym_map:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0)
+[2022.09.05-20.20.01:389][966]LogUObjectHash: Compacting FUObjectHashTables data took  12.15ms
+[2022.09.05-20.20.01:398][966]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/castle_environment/gym_map_Auto3
+[2022.09.05-20.20.01:399][966]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_map_Auto364E5C510479C3EF99DF365A97F52D33A.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Autosaves/Game/castle_environment/gym_map_Auto3.umap'
+[2022.09.05-20.20.01:401][966]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/castle_environment/gym_map' took 0.031
+[2022.09.05-20.20.01:401][966]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2022.09.05-20.29.35:981][123]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Forest_Floor_vl1nbcdfw/T_Forest_Floor_vl1nbcdfw_2K_N.T_Forest_Floor_vl1nbcdfw_2K_N (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.29.35:981][123]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Forest_Floor_vl1nbcdfw/T_ForestFloor_vl1nbcdfw_2K_ORDp.T_ForestFloor_vl1nbcdfw_2K_ORDp (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.29.36:026][126]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Forest_Floor_vl1nbcdfw/T_Forest_Floor_vl1nbcdfw_2K_D.T_Forest_Floor_vl1nbcdfw_2K_D (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.30.24:285][985]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Mossy_Rocky_Ground_vcqhcig/T_Mossy_Rocky_Ground_vcqhcig_2K_N.T_Mossy_Rocky_Ground_vcqhcig_2K_N (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.30.24:302][986]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Mossy_Rocky_Ground_vcqhcig/T_MossyRockyGround_vcqhcig_2K_ORDp.T_MossyRockyGround_vcqhcig_2K_ORDp (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.30.24:326][988]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Mossy_Rocky_Ground_vcqhcig/T_Mossy_Rocky_Ground_vcqhcig_2K_D.T_Mossy_Rocky_Ground_vcqhcig_2K_D (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.30.55:725][853]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Mossy_Grass_vebkaeys/T_MossyGrass_vebkaeys_2K_ORDp.T_MossyGrass_vebkaeys_2K_ORDp (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.30.55:770][856]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Mossy_Grass_vebkaeys/T_Mossy_Grass_vebkaeys_2K_N.T_Mossy_Grass_vebkaeys_2K_N (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.30.55:812][858]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Mossy_Grass_vebkaeys/T_Mossy_Grass_vebkaeys_2K_D.T_Mossy_Grass_vebkaeys_2K_D (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var1_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var2_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var3_lod1...
+[2022.09.05-20.32.04:927][919]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/T_Wild_Grass_vlkhcbxia_Billboard_N.T_Wild_Grass_vlkhcbxia_Billboard_N (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 40.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.04:927][919]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/T_Wild_Grass_vlkhcbxia_Billboard_D.T_Wild_Grass_vlkhcbxia_Billboard_D (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 40.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var2_lod1.S_Wild_Grass_vlkhcbxia_Var2_lod1
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var1_lod1.S_Wild_Grass_vlkhcbxia_Var1_lod1
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var3_lod1.S_Wild_Grass_vlkhcbxia_Var3_lod1
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var4_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var5_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var6_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var6_lod1.S_Wild_Grass_vlkhcbxia_Var6_lod1
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var5_lod1.S_Wild_Grass_vlkhcbxia_Var5_lod1
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var7_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var8_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var9_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var10_lod1...
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var7_lod1.S_Wild_Grass_vlkhcbxia_Var7_lod1
+[2022.09.05-20.32.04:927][919]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var8_lod1.S_Wild_Grass_vlkhcbxia_Var8_lod1
+[2022.09.05-20.32.04:940][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var11_lod1...
+[2022.09.05-20.32.04:940][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var12_lod1...
+[2022.09.05-20.32.04:940][919]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var9_lod1.S_Wild_Grass_vlkhcbxia_Var9_lod1
+[2022.09.05-20.32.04:940][919]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var13_lod1...
+[2022.09.05-20.32.04:959][920]LogStaticMesh: Built static mesh [0.04s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var4_lod1.S_Wild_Grass_vlkhcbxia_Var4_lod1
+[2022.09.05-20.32.04:959][920]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var14_lod1...
+[2022.09.05-20.32.04:973][920]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var12_lod1.S_Wild_Grass_vlkhcbxia_Var12_lod1
+[2022.09.05-20.32.04:973][920]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var15_lod1...
+[2022.09.05-20.32.04:980][921]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var14_lod1.S_Wild_Grass_vlkhcbxia_Var14_lod1
+[2022.09.05-20.32.05:001][922]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var15_lod1.S_Wild_Grass_vlkhcbxia_Var15_lod1
+[2022.09.05-20.32.05:001][922]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var16_lod1...
+[2022.09.05-20.32.05:001][922]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var17_lod1...
+[2022.09.05-20.32.05:001][922]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var13_lod1.S_Wild_Grass_vlkhcbxia_Var13_lod1
+[2022.09.05-20.32.05:001][922]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var18_lod1...
+[2022.09.05-20.32.05:020][923]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/T_WildGrass_vlkhcbxia_2K_billboard_ART.T_WildGrass_vlkhcbxia_2K_billboard_ART (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.05:020][923]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var16_lod1.S_Wild_Grass_vlkhcbxia_Var16_lod1
+[2022.09.05-20.32.05:020][923]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var19_lod1...
+[2022.09.05-20.32.05:020][923]LogStaticMesh: Built static mesh [0.08s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var11_lod1.S_Wild_Grass_vlkhcbxia_Var11_lod1
+[2022.09.05-20.32.05:020][923]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var18_lod1.S_Wild_Grass_vlkhcbxia_Var18_lod1
+[2022.09.05-20.32.05:020][923]LogStaticMesh: Display: Building static mesh S_Wild_Grass_vlkhcbxia_Var20_lod1...
+[2022.09.05-20.32.05:033][924]LogStaticMesh: Built static mesh [0.11s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var10_lod1.S_Wild_Grass_vlkhcbxia_Var10_lod1
+[2022.09.05-20.32.05:053][924]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var19_lod1.S_Wild_Grass_vlkhcbxia_Var19_lod1
+[2022.09.05-20.32.05:053][924]LogStaticMesh: Built static mesh [0.06s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var17_lod1.S_Wild_Grass_vlkhcbxia_Var17_lod1
+[2022.09.05-20.32.05:069][925]LogStaticMesh: Built static mesh [0.04s] /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/S_Wild_Grass_vlkhcbxia_Var20_lod1.S_Wild_Grass_vlkhcbxia_Var20_lod1
+[2022.09.05-20.32.05:069][925]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/T_Wild_Grass_vlkhcbxia_2K_N.T_Wild_Grass_vlkhcbxia_2K_N (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.05:069][925]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/T_WildGrass_vlkhcbxia_2K_ART.T_WildGrass_vlkhcbxia_2K_ART (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.05:095][927]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Wild_Grass_vlkhcbxia/T_Wild_Grass_vlkhcbxia_2K_D.T_Wild_Grass_vlkhcbxia_2K_D (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.32.30:267][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.09.05-20.32.30:277][412]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/castle_environment/gym_map_Auto4
+[2022.09.05-20.32.30:277][412]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_map_Auto406E08D724B1D6AED044B28BCF6601F45.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/Autosaves/Game/castle_environment/gym_map_Auto4.umap'
+[2022.09.05-20.32.30:279][412]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/castle_environment/gym_map' took 0.021
+[2022.09.05-20.32.30:279][412]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
+[2022.09.05-20.33.27:301][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var1_lod1...
+[2022.09.05-20.33.27:301][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var2_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var3_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var1_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var1_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var4_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var2_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var2_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var5_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var5_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var5_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var4_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var4_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var6_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var3_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var3_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var7_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var8_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var7_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var7_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var9_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var8_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var8_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var10_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var9_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var9_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var11_lod1...
+[2022.09.05-20.33.27:302][752]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/T_Nordic_Coastal_Groundcover_vlqkdeaja_Billboard_N.T_Nordic_Coastal_Groundcover_vlqkdeaja_Billboard_N (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 40.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var10_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var10_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var12_lod1...
+[2022.09.05-20.33.27:302][752]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/T_Nordic_Coastal_Groundcover_vlqkdeaja_Billboard_D.T_Nordic_Coastal_Groundcover_vlqkdeaja_Billboard_D (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 40.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var11_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var11_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var13_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var12_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var12_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var14_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var13_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var13_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var14_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var14_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var15_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var16_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var6_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var6_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var17_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var15_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var15_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var18_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var16_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var16_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var19_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var17_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var17_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var18_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var18_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var20_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var21_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var22_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var19_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var19_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var23_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var23_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var23_lod1
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var24_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var25_lod1...
+[2022.09.05-20.33.27:302][752]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var22_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var22_lod1
+[2022.09.05-20.33.27:314][752]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var26_lod1...
+[2022.09.05-20.33.27:314][752]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var20_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var20_lod1
+[2022.09.05-20.33.27:314][752]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var26_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var26_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var27_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.05s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var21_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var21_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var28_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var29_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var27_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var27_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var28_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var28_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var29_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var29_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var30_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var31_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var32_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var31_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var31_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var30_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var30_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var33_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var34_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var32_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var32_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var35_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var34_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var34_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var33_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var33_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var36_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var37_lod1...
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var35_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var35_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Built static mesh [0.07s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var24_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var24_lod1
+[2022.09.05-20.33.27:363][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var38_lod1...
+[2022.09.05-20.33.27:376][753]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var39_lod1...
+[2022.09.05-20.33.27:376][753]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/T_NordicCoastalGroundcover_vlqkdeaja_2K_billboard_ART.T_NordicCoastalGroundcover_vlqkdeaja_2K_billboard_ART (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.33.27:376][753]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var36_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var36_lod1
+[2022.09.05-20.33.27:376][753]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var37_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var37_lod1
+[2022.09.05-20.33.27:376][753]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/T_NordicCoastalGroundcover_vlqkdeaja_2K_ART.T_NordicCoastalGroundcover_vlqkdeaja_2K_ART (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.33.27:390][754]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var40_lod1...
+[2022.09.05-20.33.27:390][754]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var41_lod1...
+[2022.09.05-20.33.27:390][754]LogStaticMesh: Built static mesh [0.09s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var25_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var25_lod1
+[2022.09.05-20.33.27:390][754]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var39_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var39_lod1
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var38_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var38_lod1
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var42_lod1...
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var43_lod1...
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var44_lod1...
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var40_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var40_lod1
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var45_lod1...
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var41_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var41_lod1
+[2022.09.05-20.33.27:405][755]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var42_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var42_lod1
+[2022.09.05-20.33.27:424][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var46_lod1...
+[2022.09.05-20.33.27:424][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var47_lod1...
+[2022.09.05-20.33.27:424][755]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var43_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var43_lod1
+[2022.09.05-20.33.27:425][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var48_lod1...
+[2022.09.05-20.33.27:425][755]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var44_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var44_lod1
+[2022.09.05-20.33.27:425][755]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var45_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var45_lod1
+[2022.09.05-20.33.27:425][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var49_lod1...
+[2022.09.05-20.33.27:425][755]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var50_lod1...
+[2022.09.05-20.33.27:425][755]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var47_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var47_lod1
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var48_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var48_lod1
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var51_lod1...
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var46_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var46_lod1
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var49_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var49_lod1
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var52_lod1...
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var53_lod1...
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var54_lod1...
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var50_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var50_lod1
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var51_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var51_lod1
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var55_lod1...
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Display: Building static mesh S_Nordic_Coastal_Groundcover_vlqkdeaja_Var56_lod1...
+[2022.09.05-20.33.27:450][756]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var53_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var53_lod1
+[2022.09.05-20.33.27:464][757]LogStaticMesh: Built static mesh [0.02s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var54_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var54_lod1
+[2022.09.05-20.33.27:464][757]LogStaticMesh: Built static mesh [0.01s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var56_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var56_lod1
+[2022.09.05-20.33.27:464][757]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/T_Nordic_Coastal_Groundcover_vlqkdeaja_2K_N.T_Nordic_Coastal_Groundcover_vlqkdeaja_2K_N (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.33.27:476][758]LogStaticMesh: Built static mesh [0.03s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var55_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var55_lod1
+[2022.09.05-20.33.27:476][758]LogTexture: Display: Building textures: /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/T_Nordic_Coastal_Groundcover_vlqkdeaja_2K_D.T_Nordic_Coastal_Groundcover_vlqkdeaja_2K_D (TFO_DXT1, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.05-20.33.27:516][760]LogStaticMesh: Built static mesh [0.08s] /Game/Megascans/3D_Plants/Nordic_Coastal_Groundcover_vlqkdeaja/S_Nordic_Coastal_Groundcover_vlqkdeaja_Var52_lod1.S_Nordic_Coastal_Groundcover_vlqkdeaja_Var52_lod1
+[2022.09.05-20.33.33:225][ 93]LogDerivedDataCache: C:/Users/kwood/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.367 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.05-20.40.13:440][169]LogSlate: Window 'Content Browser' being destroyed
+[2022.09.05-20.40.13:445][169]LogSlate: Window 'Content Browser' being destroyed
+[2022.09.05-20.40.36:190][530]LogSlate: Window 'Bridge' being destroyed
+[2022.09.05-20.40.36:199][530]LogSlate: Window 'Bridge' being destroyed
+[2022.09.05-20.40.44:195][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.05-20.40.44:230][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.09.05-20.40.44:240][942]LogSavePackage: Moving output files for package: /Game/castle_environment/gym_map
+[2022.09.05-20.40.44:241][942]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/gym_mapFC4ECA444BDF9037F68101B6A9EE191D.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/castle_environment/gym_map.umap'
+[2022.09.05-20.40.44:248][942]LogFileHelpers: Saving map 'gym_map' took 0.026
+[2022.09.05-20.40.44:252][942]LogSavePackage: Moving output files for package: /Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material
+[2022.09.05-20.40.44:253][942]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/M_MS_Surface_Material771DC30A400E9C976CA41B8D180BC16D.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material.uasset'
+[2022.09.05-20.40.44:256][942]LogSavePackage: Moving output files for package: /Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K
+[2022.09.05-20.40.44:256][942]LogSavePackage: Moving '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Saved/MI_Roman_Stone_Wall_tfdkdb2g_2KB5EF7038406FA0148C1F35B7E981E684.tmp' to '../../../../../../Users/kwood/source/repos/LUU/Week 6/w6d3_TheDoor_ver3/Content/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K.uasset'
+[2022.09.05-20.40.44:267][942]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.05-20.40.44:267][942]LogContentValidation: Display: Validating World /Game/castle_environment/gym_map.gym_map
+[2022.09.05-20.40.44:267][942]LogContentValidation: Display: Validating Material /Game/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material.M_MS_Surface_Material
+[2022.09.05-20.40.44:267][942]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Megascans/Surfaces/Roman_Stone_Wall_tfdkdb2g/MI_Roman_Stone_Wall_tfdkdb2g_2K.MI_Roman_Stone_Wall_tfdkdb2g_2K
+[2022.09.05-20.40.46:147][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.09.05-20.40.46:149][ 46]LogStall: Shutdown...
+[2022.09.05-20.40.46:154][ 46]LogStall: Shutdown complete.
+[2022.09.05-20.40.46:181][ 46]LogSlate: Window 'w6d3_TheDoor_ver3 - Unreal Editor' being destroyed
+[2022.09.05-20.40.46:580][ 47]Cmd: QUIT_EDITOR
+[2022.09.05-20.40.46:580][ 47]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.09.05-20.40.46:591][ 47]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.09.05-20.40.46:592][ 47]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.09.05-20.40.46:592][ 47]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.09.05-20.40.46:625][ 47]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.09.05-20.40.46:625][ 47]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.09.05-20.40.46:625][ 47]LogAudio: Display: Audio Device unregistered from world 'gym_map'.
+[2022.09.05-20.40.46:631][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.09.05-20.40.46:636][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.09.05-20.40.46:699][ 47]LogAudio: Display: Audio Device Manager Shutdown
+[2022.09.05-20.40.46:708][ 47]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.09.05-20.40.46:710][ 47]LogExit: Preparing to exit.
+[2022.09.05-20.40.46:744][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.09.05-20.40.47:667][ 47]LogWorld: UWorld::CleanupWorld for gym_map, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.05-20.40.47:707][ 47]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.05-20.40.47:770][ 47]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.09.05-20.40.47:782][ 47]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.09.05-20.40.47:784][ 47]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.09.05-20.40.47:795][ 47]LogExit: Editor shut down
+[2022.09.05-20.40.47:808][ 47]LogExit: Transaction tracking system shut down
+[2022.09.05-20.40.47:870][ 47]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.05-20.40.47:871][ 47]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.05-20.40.47:871][ 47]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.05-20.40.48:581][ 47]LogExit: Object subsystem successfully closed.
+[2022.09.05-20.40.48:601][ 47]LogShaderCompilers: Display: ================================================
+[2022.09.05-20.40.48:601][ 47]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Total job queries 42, among them cache hits 0 (0.00%)
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 33 distinct outputs (78.57%)
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Shaders Compiled: 42
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Jobs assigned 42, completed 42 (100.00%)
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.03 s
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Job execution time: average 8.53 s, max 9.86 s
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Job life time (pending + execution): average 8.56 s, max 9.89
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.89 s
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 4.67 jobs/batch
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Average processing rate: 4.25 jobs/sec
+[2022.09.05-20.40.48:602][ 47]LogShaderCompilers: Display: Effective parallelization: 6.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 2.04 sec, max 3.09 sec, min 1.39 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 2.01 sec, max 3.19 sec, min 1.31 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 2.00 sec, max 3.04 sec, min 1.46 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 1.97 sec, max 3.17 sec, min 1.28 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 1.96 sec, max 3.17 sec, min 1.35 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.11% of total time (compiled    3 times, average 2.04 sec, max 3.09 sec, min 1.39 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 8.97% of total time (compiled    3 times, average 2.01 sec, max 3.19 sec, min 1.31 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.92% of total time (compiled    3 times, average 2.00 sec, max 3.04 sec, min 1.46 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 8.82% of total time (compiled    3 times, average 1.97 sec, max 3.17 sec, min 1.28 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 8.77% of total time (compiled    3 times, average 1.96 sec, max 3.17 sec, min 1.35 sec)
+[2022.09.05-20.40.48:603][ 47]LogShaderCompilers: Display: ================================================
+[2022.09.05-20.40.48:662][ 47]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.05-20.40.48:798][ 47]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (888)
+[2022.09.05-20.40.48:799][ 47]LogModuleManager: Shutting down and abandoning module NewLevelDialog (886)
+[2022.09.05-20.40.48:799][ 47]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (884)
+[2022.09.05-20.40.48:799][ 47]LogModuleManager: Shutting down and abandoning module WebBrowser (882)
+[2022.09.05-20.40.49:271][ 47]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (880)
+[2022.09.05-20.40.49:271][ 47]LogModuleManager: Shutting down and abandoning module AddContentDialog (878)
+[2022.09.05-20.40.49:282][ 47]LogModuleManager: Shutting down and abandoning module WidgetCarousel (877)
+[2022.09.05-20.40.49:282][ 47]LogModuleManager: Shutting down and abandoning module SubobjectEditor (874)
+[2022.09.05-20.40.49:282][ 47]LogModuleManager: Shutting down and abandoning module SceneOutliner (872)
+[2022.09.05-20.40.49:282][ 47]LogModuleManager: Shutting down and abandoning module StatusBar (870)
+[2022.09.05-20.40.49:282][ 47]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (868)
+[2022.09.05-20.40.49:282][ 47]LogModuleManager: Shutting down and abandoning module StatsViewer (866)
+[2022.09.05-20.40.49:283][ 47]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (864)
+[2022.09.05-20.40.49:283][ 47]LogModuleManager: Shutting down and abandoning module AutomationWorker (862)
+[2022.09.05-20.40.49:283][ 47]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (860)
+[2022.09.05-20.40.49:283][ 47]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (858)
+[2022.09.05-20.40.49:284][ 47]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (856)
+[2022.09.05-20.40.49:286][ 47]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (854)
+[2022.09.05-20.40.49:288][ 47]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (852)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module IKRigEditor (850)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module GooglePADEditor (848)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (846)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (844)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (842)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (840)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (838)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (836)
+[2022.09.05-20.40.49:289][ 47]LogModuleManager: Shutting down and abandoning module WebMMedia (834)
+[2022.09.05-20.40.49:290][ 47]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (832)
+[2022.09.05-20.40.49:290][ 47]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (830)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module SequenceRecorder (829)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (826)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (824)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (822)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (820)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (818)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (816)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (814)
+[2022.09.05-20.40.49:291][ 47]LogModuleManager: Shutting down and abandoning module SmartSnapping (812)
+[2022.09.05-20.40.49:292][ 47]LogModuleManager: Shutting down and abandoning module TextureAlignMode (810)
+[2022.09.05-20.40.49:292][ 47]LogModuleManager: Shutting down and abandoning module BspMode (808)
+[2022.09.05-20.40.49:292][ 47]LogModuleManager: Shutting down and abandoning module GeometryMode (806)
+[2022.09.05-20.40.49:292][ 47]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (804)
+[2022.09.05-20.40.49:293][ 47]LogModuleManager: Shutting down and abandoning module PlanarCut (802)
+[2022.09.05-20.40.49:293][ 47]LogModuleManager: Shutting down and abandoning module CharacterAI (800)
+[2022.09.05-20.40.49:293][ 47]LogModuleManager: Shutting down and abandoning module ControlRigEditor (798)
+[2022.09.05-20.40.49:295][ 47]LogModuleManager: Shutting down and abandoning module AnimationEditor (797)
+[2022.09.05-20.40.49:296][ 47]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (794)
+[2022.09.05-20.40.49:296][ 47]LogModuleManager: Shutting down and abandoning module SessionServices (792)
+[2022.09.05-20.40.49:296][ 47]LogModuleManager: Shutting down and abandoning module MeshPaint (790)
+[2022.09.05-20.40.49:297][ 47]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (788)
+[2022.09.05-20.40.49:297][ 47]LogModuleManager: Shutting down and abandoning module PlacementMode (787)
+[2022.09.05-20.40.49:298][ 47]LogModuleManager: Shutting down and abandoning module FoliageEdit (784)
+[2022.09.05-20.40.49:298][ 47]LogModuleManager: Shutting down and abandoning module LandscapeEditor (782)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (780)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module ActorPickerMode (778)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module ViewportSnapping (776)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module EditorWidgets (774)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module ViewportInteraction (772)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module ClothPainter (770)
+[2022.09.05-20.40.49:300][ 47]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (769)
+[2022.09.05-20.40.49:301][ 47]LogModuleManager: Shutting down and abandoning module LogVisualizer (766)
+[2022.09.05-20.40.49:303][ 47]LogModuleManager: Shutting down and abandoning module IntroTutorials (764)
+[2022.09.05-20.40.49:304][ 47]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (762)
+[2022.09.05-20.40.49:304][ 47]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (760)
+[2022.09.05-20.40.49:304][ 47]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (759)
+[2022.09.05-20.40.49:305][ 47]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (757)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (754)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (752)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (750)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (748)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module CSVtoSVG (746)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (744)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module EditorConfig (742)
+[2022.09.05-20.40.49:512][ 47]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (740)
+[2022.09.05-20.40.49:513][ 47]LogModuleManager: Shutting down and abandoning module EditorFramework (738)
+[2022.09.05-20.40.49:513][ 47]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (736)
+[2022.09.05-20.40.49:514][ 47]LogModuleManager: Shutting down and abandoning module TraceInsights (734)
+[2022.09.05-20.40.49:519][ 47]MemoryProfiler: Shutdown
+[2022.09.05-20.40.49:520][ 47]NetworkingProfiler: Shutdown
+[2022.09.05-20.40.49:520][ 47]LoadingProfiler: Shutdown
+[2022.09.05-20.40.49:521][ 47]TimingProfiler: Shutdown
+[2022.09.05-20.40.49:523][ 47]LogModuleManager: Shutting down and abandoning module TraceServices (733)
+[2022.09.05-20.40.49:524][ 47]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (730)
+[2022.09.05-20.40.49:524][ 47]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (729)
+[2022.09.05-20.40.49:524][ 47]LogModuleManager: Shutting down and abandoning module InputBindingEditor (726)
+[2022.09.05-20.40.49:525][ 47]LogModuleManager: Shutting down and abandoning module MergeActors (724)
+[2022.09.05-20.40.49:525][ 47]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (722)
+[2022.09.05-20.40.49:526][ 47]LogModuleManager: Shutting down and abandoning module LocalizationService (721)
+[2022.09.05-20.40.49:527][ 47]LogModuleManager: Shutting down and abandoning module HardwareTargeting (718)
+[2022.09.05-20.40.49:527][ 47]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (716)
+[2022.09.05-20.40.49:527][ 47]LogModuleManager: Shutting down and abandoning module UndoHistory (714)
+[2022.09.05-20.40.49:527][ 47]LogModuleManager: Shutting down and abandoning module XmlParser (712)
+[2022.09.05-20.40.49:528][ 47]LogModuleManager: Shutting down and abandoning module Blutility (710)
+[2022.09.05-20.40.49:528][ 47]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (708)
+[2022.09.05-20.40.49:528][ 47]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (707)
+[2022.09.05-20.40.49:529][ 47]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (704)
+[2022.09.05-20.40.49:529][ 47]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (703)
+[2022.09.05-20.40.49:529][ 47]LogModuleManager: Shutting down and abandoning module SettingsEditor (700)
+[2022.09.05-20.40.49:529][ 47]LogModuleManager: Shutting down and abandoning module ProjectLauncher (698)
+[2022.09.05-20.40.49:529][ 47]LogModuleManager: Shutting down and abandoning module SessionFrontend (696)
+[2022.09.05-20.40.49:530][ 47]LogModuleManager: Shutting down and abandoning module ProfilerClient (694)
+[2022.09.05-20.40.49:530][ 47]LogModuleManager: Shutting down and abandoning module DeviceManager (692)
+[2022.09.05-20.40.49:530][ 47]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (691)
+[2022.09.05-20.40.49:542][ 47]LogModuleManager: Shutting down and abandoning module AutomationController (688)
+[2022.09.05-20.40.49:542][ 47]LogModuleManager: Shutting down and abandoning module AutomationWindow (686)
+[2022.09.05-20.40.49:543][ 47]LogModuleManager: Shutting down and abandoning module Layers (684)
+[2022.09.05-20.40.49:544][ 47]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (682)
+[2022.09.05-20.40.49:544][ 47]LogModuleManager: Shutting down and abandoning module DetailCustomizations (680)
+[2022.09.05-20.40.49:544][ 47]LogModuleManager: Shutting down and abandoning module PackagesDialog (678)
+[2022.09.05-20.40.49:545][ 47]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (676)
+[2022.09.05-20.40.49:546][ 47]LogModuleManager: Shutting down and abandoning module Persona (674)
+[2022.09.05-20.40.49:547][ 47]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (673)
+[2022.09.05-20.40.49:547][ 47]LogModuleManager: Shutting down and abandoning module AnimGraph (671)
+[2022.09.05-20.40.49:547][ 47]LogModuleManager: Shutting down and abandoning module Kismet (668)
+[2022.09.05-20.40.49:549][ 47]LogModuleManager: Shutting down and abandoning module KismetWidgets (667)
+[2022.09.05-20.40.49:550][ 47]LogModuleManager: Shutting down and abandoning module GraphEditor (664)
+[2022.09.05-20.40.49:552][ 47]LogModuleManager: Shutting down and abandoning module StructViewer (662)
+[2022.09.05-20.40.49:552][ 47]LogModuleManager: Shutting down and abandoning module ClassViewer (660)
+[2022.09.05-20.40.49:552][ 47]LogModuleManager: Shutting down and abandoning module NaniteTools (658)
+[2022.09.05-20.40.49:552][ 47]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (656)
+[2022.09.05-20.40.49:553][ 47]LogModuleManager: Shutting down and abandoning module SourceControlWindows (654)
+[2022.09.05-20.40.49:553][ 47]LogModuleManager: Shutting down and abandoning module OutputLog (652)
+[2022.09.05-20.40.49:554][ 47]LogModuleManager: Shutting down and abandoning module Documentation (650)
+[2022.09.05-20.40.49:554][ 47]LogModuleManager: Shutting down and abandoning module LiveCoding (648)
+[2022.09.05-20.40.49:567][ 47]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (646)
+[2022.09.05-20.40.49:567][ 47]LogModuleManager: Shutting down and abandoning module MovieScene (644)
+[2022.09.05-20.40.49:567][ 47]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (642)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module LauncherPlatform (640)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module AnalyticsET (638)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module PortalServices (636)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module PortalRpc (634)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module MessagingRpc (632)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (630)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module AudioMixer (629)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module AudioMixerCore (628)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module AIModule (624)
+[2022.09.05-20.40.49:568][ 47]LogModuleManager: Shutting down and abandoning module GameplayDebugger (623)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module AITestSuite (621)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module NavigationSystem (619)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (616)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (614)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module TypedElementFramework (612)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.09.05-20.40.49:569][ 47]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.09.05-20.40.49:632][ 47]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module MegascansPlugin (602)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module Bridge (600)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (598)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (596)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (594)
+[2022.09.05-20.40.49:633][ 47]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2022.09.05-20.40.49:634][ 47]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (590)
+[2022.09.05-20.40.49:634][ 47]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (588)
+[2022.09.05-20.40.49:635][ 47]LogModuleManager: Shutting down and abandoning module InterchangeEditor (586)
+[2022.09.05-20.40.49:635][ 47]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (584)
+[2022.09.05-20.40.49:635][ 47]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (582)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module InterchangePipelines (580)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module InterchangeExport (578)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module InterchangeMessages (576)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module InterchangeImport (574)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module InterchangeNodes (572)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module ResonanceAudio (570)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module AlembicImporter (568)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module AlembicLibrary (567)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (564)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module SequencerScripting (562)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module TemplateSequence (560)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module UnrealInsightsInterface (558)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (556)
+[2022.09.05-20.40.49:636][ 47]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (554)
+[2022.09.05-20.40.49:637][ 47]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (552)
+[2022.09.05-20.40.49:637][ 47]LogModuleManager: Shutting down and abandoning module UObjectPlugin (550)
+[2022.09.05-20.40.49:637][ 47]LogModuleManager: Shutting down and abandoning module PluginUtils (548)
+[2022.09.05-20.40.49:637][ 47]LogModuleManager: Shutting down and abandoning module GitSourceControl (546)
+[2022.09.05-20.40.49:638][ 47]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (544)
+[2022.09.05-20.40.49:638][ 47]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (542)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (540)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (538)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (524)
+[2022.09.05-20.40.49:640][ 47]LogModuleManager: Shutting down and abandoning module ModelingOperators (522)
+[2022.09.05-20.40.49:641][ 47]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (520)
+[2022.09.05-20.40.49:641][ 47]LogModuleManager: Shutting down and abandoning module ModelingComponents (518)
+[2022.09.05-20.40.49:641][ 47]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (516)
+[2022.09.05-20.40.49:641][ 47]LogModuleManager: Shutting down and abandoning module MeshModelingTools (514)
+[2022.09.05-20.40.49:641][ 47]LogModuleManager: Shutting down and abandoning module DynamicMesh (512)
+[2022.09.05-20.40.49:642][ 47]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (510)
+[2022.09.05-20.40.49:642][ 47]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (508)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module GooglePAD (506)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (504)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module GeometryCache (502)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (500)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (498)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (496)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (494)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module CableComponent (492)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module AudioCapture (490)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (489)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (486)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module AppleImageUtils (484)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module AssetTags (482)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module AndroidPermission (480)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (478)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (476)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (474)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module MediaCompositing (472)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module ImgMedia (470)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module ChaosNiagara (468)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (466)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (464)
+[2022.09.05-20.40.49:643][ 47]LogModuleManager: Shutting down and abandoning module Paper2DEditor (462)
+[2022.09.05-20.40.49:645][ 47]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (460)
+[2022.09.05-20.40.49:645][ 47]LogModuleManager: Shutting down and abandoning module PluginBrowser (458)
+[2022.09.05-20.40.49:646][ 47]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (456)
+[2022.09.05-20.40.49:649][ 47]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (454)
+[2022.09.05-20.40.49:649][ 47]LogModuleManager: Shutting down and abandoning module StylusInput (452)
+[2022.09.05-20.40.49:649][ 47]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (450)
+[2022.09.05-20.40.49:649][ 47]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (448)
+[2022.09.05-20.40.49:650][ 47]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (446)
+[2022.09.05-20.40.49:650][ 47]LogModuleManager: Shutting down and abandoning module EditorDebugTools (444)
+[2022.09.05-20.40.49:651][ 47]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (442)
+[2022.09.05-20.40.49:651][ 47]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (440)
+[2022.09.05-20.40.49:651][ 47]LogModuleManager: Shutting down and abandoning module CryptoKeys (438)
+[2022.09.05-20.40.49:651][ 47]LogModuleManager: Shutting down and abandoning module CurveEditorTools (436)
+[2022.09.05-20.40.49:651][ 47]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (434)
+[2022.09.05-20.40.49:653][ 47]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (432)
+[2022.09.05-20.40.49:653][ 47]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (430)
+[2022.09.05-20.40.49:654][ 47]LogOpenImageDenoise: OIDN shutting down
+[2022.09.05-20.40.49:654][ 47]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (428)
+[2022.09.05-20.40.49:654][ 47]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (426)
+[2022.09.05-20.40.49:655][ 47]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (424)
+[2022.09.05-20.40.49:655][ 47]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (422)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module MeshLODToolset (420)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (418)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (417)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (414)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (412)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (410)
+[2022.09.05-20.40.49:656][ 47]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (408)
+[2022.09.05-20.40.49:657][ 47]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (406)
+[2022.09.05-20.40.49:657][ 47]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (404)
+[2022.09.05-20.40.49:658][ 47]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (402)
+[2022.09.05-20.40.49:658][ 47]LogModuleManager: Shutting down and abandoning module FractureEditor (400)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (398)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module BackChannel (396)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (394)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module AutomationUtils (392)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module ControlRigSpline (390)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (388)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (386)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (384)
+[2022.09.05-20.40.49:659][ 47]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (382)
+[2022.09.05-20.40.49:660][ 47]LogModuleManager: Shutting down and abandoning module w6d3_TheDoor_ver3 (380)
+[2022.09.05-20.40.49:660][ 47]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (378)
+[2022.09.05-20.40.49:660][ 47]LogModuleManager: Shutting down and abandoning module ActorSequence (376)
+[2022.09.05-20.40.49:660][ 47]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (374)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (372)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module AnimationSharing (370)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (368)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module IKRig (366)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (362)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module SignificanceManager (360)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (358)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (356)
+[2022.09.05-20.40.49:661][ 47]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (354)
+[2022.09.05-20.40.49:662][ 47]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (353)
+[2022.09.05-20.40.49:662][ 47]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (350)
+[2022.09.05-20.40.49:662][ 47]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2022.09.05-20.40.49:762][ 47]LogModuleManager: Shutting down and abandoning module UdpMessaging (346)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (344)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module Paper2D (342)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (340)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module FacialAnimation (338)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module DataValidation (336)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (334)
+[2022.09.05-20.40.49:863][ 47]LogModuleManager: Shutting down and abandoning module Niagara (332)
+[2022.09.05-20.40.49:865][ 47]LogModuleManager: Shutting down and abandoning module SignalProcessing (331)
+[2022.09.05-20.40.49:866][ 47]LogModuleManager: Shutting down and abandoning module NiagaraEditor (329)
+[2022.09.05-20.40.49:867][ 47]LogModuleManager: Shutting down and abandoning module NiagaraCore (326)
+[2022.09.05-20.40.49:867][ 47]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (324)
+[2022.09.05-20.40.49:868][ 47]LogModuleManager: Shutting down and abandoning module LevelEditor (323)
+[2022.09.05-20.40.49:878][ 47]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (322)
+[2022.09.05-20.40.49:878][ 47]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (320)
+[2022.09.05-20.40.49:879][ 47]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (318)
+[2022.09.05-20.40.49:880][ 47]LogModuleManager: Shutting down and abandoning module MainFrame (316)
+[2022.09.05-20.40.49:881][ 47]LogModuleManager: Shutting down and abandoning module HotReload (315)
+[2022.09.05-20.40.49:881][ 47]LogModuleManager: Shutting down and abandoning module ContentBrowser (311)
+[2022.09.05-20.40.49:881][ 47]LogModuleManager: Shutting down and abandoning module ToolMenus (310)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module ContentBrowserData (308)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module TreeMap (305)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module GameplayCameras (302)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (300)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module PBIK (298)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module FullBodyIK (296)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (294)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module ControlRig (292)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module LevelSequence (291)
+[2022.09.05-20.40.49:882][ 47]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (288)
+[2022.09.05-20.40.49:883][ 47]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (286)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (284)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module AndroidFileServer (282)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module AnimationDataController (276)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (274)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (272)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module MediaAssets (270)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module Overlay (268)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module OverlayEditor (267)
+[2022.09.05-20.40.49:885][ 47]LogModuleManager: Shutting down and abandoning module VREditor (264)
+[2022.09.05-20.40.49:886][ 47]LogModuleManager: Shutting down and abandoning module StringTableEditor (262)
+[2022.09.05-20.40.49:886][ 47]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (260)
+[2022.09.05-20.40.49:886][ 47]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (258)
+[2022.09.05-20.40.49:887][ 47]LogModuleManager: Shutting down and abandoning module FunctionalTesting (256)
+[2022.09.05-20.40.49:887][ 47]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (254)
+[2022.09.05-20.40.49:888][ 47]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (253)
+[2022.09.05-20.40.49:890][ 47]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.09.05-20.40.49:891][ 47]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.09.05-20.40.49:892][ 47]LogModuleManager: Shutting down and abandoning module SlateReflector (244)
+[2022.09.05-20.40.49:894][ 47]LogModuleManager: Shutting down and abandoning module Slate (242)
+[2022.09.05-20.40.49:894][ 47]LogModuleManager: Shutting down and abandoning module SlateCore (240)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (238)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (236)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module UnrealEd (234)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module MRMesh (232)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module Messaging (230)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module Networking (224)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module Core (222)
+[2022.09.05-20.40.49:896][ 47]LogModuleManager: Shutting down and abandoning module MaterialEditor (220)
+[2022.09.05-20.40.49:898][ 47]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2022.09.05-20.40.49:899][ 47]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2022.09.05-20.40.49:899][ 47]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2022.09.05-20.40.49:901][ 47]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2022.09.05-20.40.49:901][ 47]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2022.09.05-20.40.49:901][ 47]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2022.09.05-20.40.49:901][ 47]LogModuleManager: Shutting down and abandoning module NaniteBuilder (206)
+[2022.09.05-20.40.49:901][ 47]LogModuleManager: Shutting down and abandoning module MeshUtilities (204)
+[2022.09.05-20.40.49:902][ 47]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (203)
+[2022.09.05-20.40.49:902][ 47]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (202)
+[2022.09.05-20.40.49:902][ 47]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (201)
+[2022.09.05-20.40.49:902][ 47]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (199)
+[2022.09.05-20.40.49:902][ 47]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (197)
+[2022.09.05-20.40.49:905][ 47]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (195)
+[2022.09.05-20.40.49:905][ 47]LogModuleManager: Shutting down and abandoning module MaterialBaking (191)
+[2022.09.05-20.40.49:905][ 47]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (186)
+[2022.09.05-20.40.49:905][ 47]LogModuleManager: Shutting down and abandoning module DerivedDataCache (184)
+[2022.09.05-20.40.49:921][ 47]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2022.09.05-20.40.49:921][ 47]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (181)
+[2022.09.05-20.40.49:921][ 47]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (179)
+[2022.09.05-20.40.49:921][ 47]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.09.05-20.40.49:923][ 47]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (175)
+[2022.09.05-20.40.49:923][ 47]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (173)
+[2022.09.05-20.40.49:924][ 47]LogModuleManager: Shutting down and abandoning module AudioFormatBink (171)
+[2022.09.05-20.40.49:924][ 47]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (169)
+[2022.09.05-20.40.49:924][ 47]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (167)
+[2022.09.05-20.40.49:924][ 47]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (165)
+[2022.09.05-20.40.49:924][ 47]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (163)
+[2022.09.05-20.40.49:924][ 47]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (161)
+[2022.09.05-20.40.49:925][ 47]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (159)
+[2022.09.05-20.40.49:925][ 47]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (157)
+[2022.09.05-20.40.49:926][ 47]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (155)
+[2022.09.05-20.40.49:926][ 47]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (153)
+[2022.09.05-20.40.49:928][ 47]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (151)
+[2022.09.05-20.40.49:929][ 47]LogModuleManager: Shutting down and abandoning module TextureFormat (149)
+[2022.09.05-20.40.49:929][ 47]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (148)
+[2022.09.05-20.40.49:930][ 47]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (146)
+[2022.09.05-20.40.49:930][ 47]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2022.09.05-20.40.49:931][ 47]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2022.09.05-20.40.49:931][ 47]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (140)
+[2022.09.05-20.40.49:933][ 47]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (138)
+[2022.09.05-20.40.49:933][ 47]LogModuleManager: Shutting down and abandoning module ImageWrapper (137)
+[2022.09.05-20.40.49:933][ 47]LogModuleManager: Shutting down and abandoning module TurnkeySupport (133)
+[2022.09.05-20.40.49:933][ 47]LogModuleManager: Shutting down and abandoning module InputCore (130)
+[2022.09.05-20.40.49:933][ 47]LogModuleManager: Shutting down and abandoning module Settings (128)
+[2022.09.05-20.40.49:933][ 47]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (124)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (123)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module Chaos (120)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module GeometryCore (119)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (116)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (115)
+[2022.09.05-20.40.49:939][ 47]LogModuleManager: Shutting down and abandoning module AVEncoder (114)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module D3D12RHI (110)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (108)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (106)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module PixWinPlugin (104)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (102)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (100)
+[2022.09.05-20.40.49:940][ 47]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (98)
+[2022.09.05-20.40.49:941][ 47]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (96)
+[2022.09.05-20.40.49:945][ 47]LogModuleManager: Shutting down and abandoning module XMPP (91)
+[2022.09.05-20.40.49:946][ 47]LogModuleManager: Shutting down and abandoning module WebSockets (90)
+[2022.09.05-20.40.49:963][ 47]LogModuleManager: Shutting down and abandoning module HTTP (87)
+[2022.09.05-20.40.49:963][ 47]LogHttp: Warning: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.09.05-20.40.49:964][ 47]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B741B7D08-4B61-2497-DC4B-CC95755CB872%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=83aec9c74137859ef6bfc8b3c6bba342%7C5c5e053519d241da8b1be97d8b6e37fc%7C10d730c2-bc74-49e2-918c-ca2defe05986&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.09.05-20.40.49:964][ 47]LogHttp: Warning: Cleaning up 1 outstanding Http requests.
+[2022.09.05-20.40.49:983][ 47]LogModuleManager: Shutting down and abandoning module SSL (86)
+[2022.09.05-20.40.49:990][ 47]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (82)
+[2022.09.05-20.40.49:990][ 47]LogModuleManager: Shutting down and abandoning module HairStrandsCore (80)
+[2022.09.05-20.40.49:990][ 47]LogModuleManager: Shutting down and abandoning module ChunkDownloader (78)
+[2022.09.05-20.40.49:990][ 47]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2022.09.05-20.40.49:990][ 47]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2022.09.05-20.40.49:996][ 47]LogModuleManager: Shutting down and abandoning module Media (73)
+[2022.09.05-20.40.49:997][ 47]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (70)
+[2022.09.05-20.40.49:997][ 47]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (68)
+[2022.09.05-20.40.49:997][ 47]LogModuleManager: Shutting down and abandoning module NiagaraShader (66)
+[2022.09.05-20.40.49:997][ 47]LogModuleManager: Shutting down and abandoning module VariantManagerContent (64)
+[2022.09.05-20.40.49:997][ 47]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2022.09.05-20.40.49:998][ 47]LogModuleManager: Shutting down and abandoning module ChaosCloth (60)
+[2022.09.05-20.40.49:998][ 47]LogModuleManager: Shutting down and abandoning module AISupportModule (58)
+[2022.09.05-20.40.49:998][ 47]LogModuleManager: Shutting down and abandoning module DesktopPlatform (56)
+[2022.09.05-20.40.49:999][ 47]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (54)
+[2022.09.05-20.40.50:001][ 47]LogModuleManager: Shutting down and abandoning module SourceControl (53)
+[2022.09.05-20.40.50:002][ 47]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (50)
+[2022.09.05-20.40.50:002][ 47]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (48)
+[2022.09.05-20.40.50:002][ 47]LogModuleManager: Shutting down and abandoning module PlatformCrypto (46)
+[2022.09.05-20.40.50:002][ 47]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (44)
+[2022.09.05-20.40.50:002][ 47]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2022.09.05-20.40.50:003][ 47]LogXGEController: Cleaning working directory: C:/Users/kwood/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.09.05-20.40.50:004][ 47]LogModuleManager: Shutting down and abandoning module FastBuildController (40)
+[2022.09.05-20.40.50:004][ 47]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.09.05-20.40.50:005][ 47]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.09.05-20.40.50:008][ 47]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.09.05-20.40.50:009][ 47]LogModuleManager: Shutting down and abandoning module Virtualization (32)
+[2022.09.05-20.40.50:010][ 47]LogModuleManager: Shutting down and abandoning module MessageLog (31)
+[2022.09.05-20.40.50:010][ 47]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.09.05-20.40.50:011][ 47]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.09.05-20.40.50:011][ 47]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.09.05-20.40.50:011][ 47]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.09.05-20.40.50:016][ 47]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.09.05-20.40.50:016][ 47]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.09.05-20.40.50:016][ 47]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.09.05-20.40.50:017][ 47]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.09.05-20.40.50:017][ 47]LogModuleManager: Shutting down and abandoning module SandboxFile (12)
+[2022.09.05-20.40.50:017][ 47]LogModuleManager: Shutting down and abandoning module PakFile (10)
+[2022.09.05-20.40.50:018][ 47]LogModuleManager: Shutting down and abandoning module RSA (9)
+[2022.09.05-20.40.50:018][ 47]LogModuleManager: Shutting down and abandoning module NetworkFile (6)
+[2022.09.05-20.40.50:018][ 47]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2022.09.05-20.40.50:019][ 47]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2022.09.05-20.40.50:104][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: 221 items to release
+[2022.09.05-20.40.50:104][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 2582 x 1062 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:104][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 2582 x 1062 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:104][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 2582 x 1062 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:105][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:105][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:105][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:106][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:106][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyCPUTexture", 6234540 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:106][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyTexture", 1707 x 902 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:106][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BufferedRT", 1707 x 902 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:106][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelVisBuffer", 25165824 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:107][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 502 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:107][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 502 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:107][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 502 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:125][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:125][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:125][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:125][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:126][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:126][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:130][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:130][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:131][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:131][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:132][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:133][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:133][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:134][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:134][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:135][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:136][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:137][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:137][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:139][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:139][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:140][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:141][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:141][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:141][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:142][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:142][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.09.05-20.40.50:142][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:142][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:142][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:143][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TextureRenderTarget2D_0", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:144][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.VisBuffer64", 1392 x 736 x 1, Mips: 1, Format: 0x11, Flags: 0x4
+[2022.09.05-20.40.50:147][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.VisBuffer64", 1392 x 736 x 1, Mips: 1, Format: 0x11, Flags: 0x4
+[2022.09.05-20.40.50:147][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.VisBuffer64", 1392 x 736 x 1, Mips: 1, Format: 0x11, Flags: 0x4
+[2022.09.05-20.40.50:150][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.VisBuffer64", 1392 x 736 x 1, Mips: 1, Format: 0x11, Flags: 0x4
+[2022.09.05-20.40.50:152][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:152][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:153][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:153][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:153][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:153][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:153][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:153][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:154][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:154][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:154][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:154][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:154][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:154][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:155][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:155][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:155][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:155][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:155][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:155][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:156][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 32 x 32 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:156][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:156][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:156][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:156][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 3145728 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:156][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 3145728 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:157][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 3145728 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:157][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 3145728 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:157][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.StreamingManager.ImposterData", 84934656 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:158][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.StreamingManager.ClusterPageData", 603979776 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:165][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.09.05-20.40.50:165][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleCurveTexture", 512 x 512 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Editor.PrimitivesDepthHistory", 3416 x 1808 x 1, Mips: 1, Format: 0x29, Flags: 0x1
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.Output", 1708 x 904 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.LowFrequencies", 1708 x 904 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.CameraAPVolume0", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableMovableLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.09.05-20.40.50:166][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableStationaryLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalSDFMipTexture", 56 x 56 x 224, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFieldPageTableCombined", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldCoverageAtlas", 256 x 256 x 128, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageAtlas", 512 x 512 x 256, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 695 x 367 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 695 x 367 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:167][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelLighting", 64 x 256 x 384, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.TracingDepth", 348 x 184 x 1, Mips: 1, Format: 0x22, Flags: 0x5
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 1024 x 1024 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 1024 x 1024 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 2048 x 2048 x 1, Mips: 3, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "OctahedralSolidAngleTexture", 16 x 16 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 4096 x 4096 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:168][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:170][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 4352 x 4352 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:170][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.09.05-20.40.50:170][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.TranslucencyAlpha", 1708 x 904 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:171][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.09.05-20.40.50:171][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:171][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.HighFrequencies", 1708 x 904 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:171][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.SubpixelInfo", 1708 x 904 x 1, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.09.05-20.40.50:171][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SceneColor", 1392 x 736 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.09.05-20.40.50:171][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBFurthest", 1024 x 512 x 1, Mips: 10, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:172][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBFurthest", 1024 x 512 x 1, Mips: 10, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:172][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Metadata", 1708 x 904 x 1, Mips: 1, Format: 0x31, Flags: 0x4
+[2022.09.05-20.40.50:172][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.DepthHistory", 1392 x 736 x 1, Mips: 1, Format: 0x29, Flags: 0x4
+[2022.09.05-20.40.50:172][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Translucency", 1708 x 904 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:172][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.AccumulatedResolveVariance", 1392 x 736 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:172][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.NumHistoryFramesAccumulated", 1392 x 736 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.NumHistoryFramesAccumulated", 1392 x 736 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.FastUpdateMode", 1392 x 736 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.DiffuseIndirect", 1392 x 736 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Tracing", 348 x 184 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.SpecularIndirect", 1392 x 736 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.TransmittanceLut", 256 x 64 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:173][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.MultiScatteredLuminanceLut", 32 x 32 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:174][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.DistantSkyLightLut", 1 x 1 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:174][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.RoughSpecularIndirect", 1392 x 736 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:174][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 695 x 367 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.09.05-20.40.50:174][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 695 x 367 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:174][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "GBufferA", 1392 x 736 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.09.05-20.40.50:174][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.SkyViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeTranslatedWorldPosition", 87 x 69 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeSceneDepth", 87 x 69 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeFilteredRadiance", 696 x 552 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 192 x 48 x 48, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 44 x 23 x 26, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 44 x 23 x 26, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 72 x 24 x 24, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:175][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.PreviousOccluderHZB", 8192 x 2048 x 1, Mips: 7, Format: 0x29, Flags: 0x4
+[2022.09.05-20.40.50:176][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:177][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:177][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:177][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.PhysicalPagePool", 16384 x 4096 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.09.05-20.40.50:180][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:180][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneAlbedo", 4096 x 4096 x 1, Mips: 1, Format: 0x61, Flags: 0x0
+[2022.09.05-20.40.50:181][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneOpacity", 4096 x 4096 x 1, Mips: 1, Format: 0x50, Flags: 0x0
+[2022.09.05-20.40.50:181][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDepth", 4096 x 4096 x 1, Mips: 1, Format: 0x23, Flags: 0x1
+[2022.09.05-20.40.50:181][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNormal", 4096 x 4096 x 1, Mips: 1, Format: 0x53, Flags: 0x0
+[2022.09.05-20.40.50:181][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneEmissive", 4096 x 4096 x 1, Mips: 1, Format: 0x5F, Flags: 0x0
+[2022.09.05-20.40.50:182][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.09.05-20.40.50:182][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneIndirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.09.05-20.40.50:182][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNumFramesAccumulatedAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x3D, Flags: 0x5
+[2022.09.05-20.40.50:182][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneFinalLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.09.05-20.40.50:183][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget0", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.09.05-20.40.50:183][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.CapturedSkyRenderTarget", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.09.05-20.40.50:184][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget1", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.09.05-20.40.50:184][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHBlueAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:184][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHGreenAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:184][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHRedAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:185][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.TraceRadianceAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:185][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.09.05-20.40.50:185][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Dummy", 1 x 1 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.09.05-20.40.50:185][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapCamera360APLut", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairLUT0", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Hair.LUT(DualScattering)", 64 x 64 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkySHIrradiance", 9 x 1 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap1", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap0", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:186][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap1", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:187][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap0", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.09.05-20.40.50:187][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.ReflectionResolveTileIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:187][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.MainAndPostNodesAndClusterBatchesBuffer", 44040192 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:188][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FixupProbeBordersIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:188][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceCacheHardwareRayTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:188][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "ShaderDraw.IndirectBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:188][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.MaterialIndirectArgs", 327680 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:188][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.SafeMainRasterizeArgsSWHW", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:188][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.PostRasterizeArgsSWHW", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceField.ObjectIndirectArguments", 65520 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactRayTraceDispatchIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.SafePostRasterizeArgsSWHW", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FilterProbesIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.ProcessGPUInstanceInvalidationsIndirectArgs", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:189][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.SafeMainRasterizeArgsSWHW", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:190][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:191][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:192][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:192][ 47]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.09.05-20.40.50:456][ 47]LogD3D12RHI: ~FD3D12DynamicRHI
+[2022.09.05-20.40.50:457][ 47]LogExit: Exiting.
+[2022.09.05-20.40.50:497][ 47]Log file closed, 09/05/22 13:40:50
